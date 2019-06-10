@@ -5,9 +5,16 @@
 #ifndef CTEST_FRESHMAN_H
 #define CTEST_FRESHMAN_H
 
+#include "Student.h"
 
-class Freshman {
+//大一新生
+class Freshman :public Student{
+public:
+    Freshman();
+    Freshman(const string &name, int age, int sex, int grade);
 
+public:
+    void sleep() override;
 };
 
 

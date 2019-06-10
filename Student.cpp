@@ -2,9 +2,19 @@
 // Created by 风落叶 on 2019-06-05.
 //
 
+#include <iostream>
 #include "Student.h"
+/**
+ * using的使用;
+ * 1:using namespace 命名空间;
+ * 在程序中使用using后所跟的命名空间的元素，而不用每次要使用时指定命名空间。
+ * std::cout <<"feng";
+ * cout << "";
+ */
+using namespace std;
 
 const string &Student::getName() const {
+
     return name;
 }
 
@@ -45,6 +55,15 @@ Student::Student(string name, int age, int sex, int grade) {
     this->age = age;
     this->sex = sex;
     this->grade = grade;
+}
+
+Student::~Student() {
+    cout << "对象被删除\n";
+}
+
+
+void Student::study() {
+    cout << "学生每天都要要学习\n";
 }
 
 
