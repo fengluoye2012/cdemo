@@ -150,6 +150,33 @@ Student.cpp.s:
 	$(MAKE) -f CMakeFiles/CTest.dir/build.make CMakeFiles/CTest.dir/Student.cpp.s
 .PHONY : Student.cpp.s
 
+StudentManagerHelper.o: StudentManagerHelper.cpp.o
+
+.PHONY : StudentManagerHelper.o
+
+# target to build an object file
+StudentManagerHelper.cpp.o:
+	$(MAKE) -f CMakeFiles/CTest.dir/build.make CMakeFiles/CTest.dir/StudentManagerHelper.cpp.o
+.PHONY : StudentManagerHelper.cpp.o
+
+StudentManagerHelper.i: StudentManagerHelper.cpp.i
+
+.PHONY : StudentManagerHelper.i
+
+# target to preprocess a source file
+StudentManagerHelper.cpp.i:
+	$(MAKE) -f CMakeFiles/CTest.dir/build.make CMakeFiles/CTest.dir/StudentManagerHelper.cpp.i
+.PHONY : StudentManagerHelper.cpp.i
+
+StudentManagerHelper.s: StudentManagerHelper.cpp.s
+
+.PHONY : StudentManagerHelper.s
+
+# target to generate assembly for a file
+StudentManagerHelper.cpp.s:
+	$(MAKE) -f CMakeFiles/CTest.dir/build.make CMakeFiles/CTest.dir/StudentManagerHelper.cpp.s
+.PHONY : StudentManagerHelper.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"
+	@echo "... StudentManagerHelper.o"
+	@echo "... StudentManagerHelper.i"
+	@echo "... StudentManagerHelper.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

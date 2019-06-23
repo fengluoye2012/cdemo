@@ -2,6 +2,8 @@
 #include <string>
 //引入头文件；
 #include "Student.h"
+#include "array"
+#include "StudentManagerHelper.h"
 
 //using std::string;
 using namespace std;
@@ -11,6 +13,8 @@ void init_string();
 
 
 void init_student();
+
+void init_vector();
 
 /**
  * string 的使用：
@@ -22,11 +26,34 @@ void init_student();
 
 int main() {
 
-    init_string();
+    //init_string();
 
-    init_student();
+    //init_student();
+
+    init_vector();
 
     return 0;
+}
+
+//创建动态长度数组
+void init_vector() {
+    StudentManagerHelper studentManagerHelper;
+    studentManagerHelper.addStudent(Student("feng", 12, 1, 4));
+
+    studentManagerHelper.getStudentCount();
+    studentManagerHelper.insertStudent(Student("luo", 13, 0, 5));
+    studentManagerHelper.addStudent(Student("ye", 12, 0, 5));
+    studentManagerHelper.getStudents();
+
+    studentManagerHelper.deleteStudent(0);
+    studentManagerHelper.getStudentCount();
+    studentManagerHelper.getStudents();
+
+    //获取指针变量；
+    Student *stu = studentManagerHelper.getStudent(0);
+    cout << stu->getName() << "\n";
+
+
 }
 
 void init_student() {

@@ -86,6 +86,12 @@
 		<Unit filename="/Users/fengluoye/Desktop/c project/CTest/Student.h">
 			<Option target="CTest"/>
 		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/CTest/StudentManagerHelper.cpp">
+			<Option target="CTest"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/CTest/StudentManagerHelper.h">
+			<Option target="CTest"/>
+		</Unit>
 		<Unit filename="/Users/fengluoye/Desktop/c project/CTest/main.cpp">
 			<Option target="CTest"/>
 		</Unit>

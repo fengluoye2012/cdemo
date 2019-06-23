@@ -10,6 +10,24 @@
 string
 /Users/fengluoye/Desktop/c project/CTest/string
 
+/Users/fengluoye/Desktop/c project/CTest/StudentManagerHelper.cpp
+iostream
+-
+StudentManagerHelper.h
+/Users/fengluoye/Desktop/c project/CTest/StudentManagerHelper.h
+
+/Users/fengluoye/Desktop/c project/CTest/StudentManagerHelper.h
+array
+-
+vector
+/Users/fengluoye/Desktop/c project/CTest/vector
+list
+/Users/fengluoye/Desktop/c project/CTest/list
+string
+/Users/fengluoye/Desktop/c project/CTest/string
+Student.h
+/Users/fengluoye/Desktop/c project/CTest/Student.h
+
 /Users/fengluoye/Desktop/c project/CTest/main.cpp
 iostream
 -
@@ -17,4 +35,8 @@ string
 -
 Student.h
 /Users/fengluoye/Desktop/c project/CTest/Student.h
+array
+/Users/fengluoye/Desktop/c project/CTest/array
+StudentManagerHelper.h
+/Users/fengluoye/Desktop/c project/CTest/StudentManagerHelper.h
 

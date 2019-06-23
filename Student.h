@@ -21,7 +21,7 @@ using std::string;
 
 class Student {
 
-private:
+protected:
     //成员变量
     string name;
     int age;
@@ -52,7 +52,6 @@ public:
     Student();
 
     Student(string name, int age, int sex, int grade);
-
 
 };
 
