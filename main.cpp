@@ -1,16 +1,13 @@
 #include <iostream>
 #include <string>
 //引入头文件；
-<<<<<<< HEAD
 #include "Student.h"
 #include "array"
 #include "StudentManagerHelper.h"
-=======
 #include "Freshman.h"
 #include "HighStudent.h"
 #include "list"
 #include "stack"
->>>>>>> 757257932de503a3672cfd1679b24581b7c12fa9
 
 using std::string;
 using namespace std;
@@ -20,9 +17,8 @@ void init_string();
 
 void init_student();
 
-<<<<<<< HEAD
 void init_vector();
-=======
+
 void init_high_student();
 
 //命名空间：作为附加信息来区分不同库中相同名称的函数、类、变量等。使用了命名空间即定义了上下文。
@@ -43,7 +39,6 @@ namespace second_space {
         cout << "我是second命名空间的func方法\n";
     }
 }
->>>>>>> 757257932de503a3672cfd1679b24581b7c12fa9
 
 /**
  * string 的使用：
@@ -54,33 +49,33 @@ namespace second_space {
  */
 
 int main() {
-    //init_string();
-    //init_student();
+
     //init_high_student();
 
-<<<<<<< HEAD
+
     //init_string();
 
     //init_student();
 
-    init_vector();
-=======
-    //name_space_test();
->>>>>>> 757257932de503a3672cfd1679b24581b7c12fa9
+    // init_vector();
 
-    template_test();
+    //name_space_test();
+
+    //template_test();
+
+    cout << "hello world" << "\n";
+
     return 0;
 }
 
-<<<<<<< HEAD
 //创建动态长度数组
 void init_vector() {
     StudentManagerHelper studentManagerHelper;
-    studentManagerHelper.addStudent(Student("feng", 12, 1, 4));
+    studentManagerHelper.addStudent(Freshman("feng", 12, 1, 4));
 
     studentManagerHelper.getStudentCount();
-    studentManagerHelper.insertStudent(Student("luo", 13, 0, 5));
-    studentManagerHelper.addStudent(Student("ye", 12, 0, 5));
+    studentManagerHelper.insertStudent(Freshman("luo", 13, 0, 5));
+    studentManagerHelper.addStudent(Freshman("ye", 12, 0, 5));
     studentManagerHelper.getStudents();
 
     studentManagerHelper.deleteStudent(0);
@@ -90,9 +85,8 @@ void init_vector() {
     //获取指针变量；
     Student *stu = studentManagerHelper.getStudent(0);
     cout << stu->getName() << "\n";
+}
 
-
-=======
 void template_test() {
     stack<int> dataStack;
     dataStack.push(2);
@@ -105,11 +99,10 @@ void template_test() {
     strList.emplace_back("luo");
     strList.emplace_back("ye");
 
-    for_each()
     for (int i = 0; i < strList.size(); ++i) {
         strList.emplace_back(i);
 
-        cout << "我是第" << i << "个元素" << << "\n";
+        cout << "我是第" << i << "个元素" << "\n";
     }
 }
 
@@ -135,7 +128,6 @@ void init_high_student() {
     cout << (*stu).getName() << "\n";
 
     stu->study();
->>>>>>> 757257932de503a3672cfd1679b24581b7c12fa9
 }
 
 void init_student() {

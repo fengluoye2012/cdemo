@@ -60,8 +60,7 @@ public:
 
     Student(string name, int age, int sex, int grade);
 
-<<<<<<< HEAD
-=======
+
     //析构函数:每次删除对象时 执行;
     ~Student();
 
@@ -78,7 +77,6 @@ public:
      */
     virtual void sleep() = 0;
 
->>>>>>> 757257932de503a3672cfd1679b24581b7c12fa9
 };
 
 

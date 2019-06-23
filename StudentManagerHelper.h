@@ -11,6 +11,7 @@
 #include "string"
 
 #include "Student.h"
+#include "Freshman.h"
 using namespace std;
 //using std::array;
 
@@ -33,14 +34,14 @@ class StudentManagerHelper {
 
 
 protected:
-    vector<Student>stuVector;
+    vector<Freshman>stuVector;
 
 public:
-    void addStudent(Student student);
+    void addStudent(Freshman student);
 
-    Student * getStudent(int pos);
+    Freshman * getStudent(int pos);
 
-    void insertStudent(Student student);
+    void insertStudent(Freshman student);
 
     void deleteStudent(int pos);
 

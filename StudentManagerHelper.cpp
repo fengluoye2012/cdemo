@@ -7,18 +7,18 @@
 
 using namespace std;
 
-void StudentManagerHelper::addStudent(Student student) {
+void StudentManagerHelper::addStudent(Freshman student) {
     stuVector.push_back(student);//在数组尾部添加一个元素；
 }
 
-Student *StudentManagerHelper::getStudent(int pos) {
+Freshman *StudentManagerHelper::getStudent(int pos) {
     //返回Student类型的变量
     // return pos < stuVector.size() ? stuVector[pos] : Student();
     //返回Student * 的指针变量
     return pos < stuVector.size() ? &stuVector[pos] : NULL;
 }
 
-void StudentManagerHelper::insertStudent(Student student) {
+void StudentManagerHelper::insertStudent(Freshman student) {
     stuVector.insert(stuVector.begin(), student);
 }
 
@@ -33,7 +33,7 @@ void StudentManagerHelper::getStudents() {
 
     int pos = 0;
     for (; pos < stuVector.size(); pos++) {
-        Student stu = stuVector[pos];
+        Freshman stu = stuVector[pos];
         cout << stu.getName() << ",," << stu.getGrade() << ",," << stu.getAge() << "\n";
     }
 }
