@@ -44,34 +44,33 @@ namespace second_space {
  */
 
 int main() {
-    //init_string();
-    //init_student();
-    //init_high_student();
+    init_string();
+    init_student();
+    init_high_student();
 
-    //name_space_test();
+    name_space_test();
 
     template_test();
+
+    cout << "Hello World\n";
     return 0;
 }
 
 void template_test() {
-    stack<int> dataStack;
-    dataStack.push(2);
-    dataStack.push(4);
-    cout << "stack的size：：" << dataStack.size() << "\n";
-
-
-    list<string> strList;
-    strList.emplace_back("feng");
-    strList.emplace_back("luo");
-    strList.emplace_back("ye");
-
-    for_each()
-    for (int i = 0; i < strList.size(); ++i) {
-        strList.emplace_back(i);
-
-        cout << "我是第" << i << "个元素" << << "\n";
-    }
+//    stack<int> dataStack;
+//    dataStack.push(2);
+//    dataStack.push(4);
+//    cout << "stack的size：：" << dataStack.size() << "\n";
+//
+//
+//    list<string> strList;
+//    strList.emplace_back("feng");
+//    strList.emplace_back("luo");
+//    strList.emplace_back("ye");
+//
+//    for (int i = 0; i < strList.size(); ++i) {
+//        strList.emplace_back(i);
+//    }
 }
 
 void name_space_test() {
