@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 //引入头文件；
+#include "Student.h"
+#include "array"
+#include "StudentManagerHelper.h"
 #include "Freshman.h"
 #include "HighStudent.h"
 #include "list"
@@ -13,6 +16,8 @@ using namespace std;
 void init_string();
 
 void init_student();
+
+void init_vector();
 
 void init_high_student();
 
@@ -48,12 +53,44 @@ int main() {
     init_student();
     init_high_student();
 
-    name_space_test();
+    //init_high_student();
+
+
+    //init_string();
+
+    //init_student();
+
+    // init_vector();
+
+    //name_space_test();
 
     template_test();
 
     cout << "Hello World\n";
+    //template_test();
+
+    cout << "hello world" << "\n";
+
     return 0;
+}
+
+//创建动态长度数组
+void init_vector() {
+    StudentManagerHelper studentManagerHelper;
+    studentManagerHelper.addStudent(Freshman("feng", 12, 1, 4));
+
+    studentManagerHelper.getStudentCount();
+    studentManagerHelper.insertStudent(Freshman("luo", 13, 0, 5));
+    studentManagerHelper.addStudent(Freshman("ye", 12, 0, 5));
+    studentManagerHelper.getStudents();
+
+    studentManagerHelper.deleteStudent(0);
+    studentManagerHelper.getStudentCount();
+    studentManagerHelper.getStudents();
+
+    //获取指针变量；
+    Student *stu = studentManagerHelper.getStudent(0);
+    cout << stu->getName() << "\n";
 }
 
 void template_test() {

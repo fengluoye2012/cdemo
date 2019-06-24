@@ -60,6 +60,7 @@ public:
 
     Student(string name, int age, int sex, int grade);
 
+
     //析构函数:每次删除对象时 执行;
     ~Student();
 
