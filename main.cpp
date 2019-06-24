@@ -26,8 +26,6 @@ void init_high_student();
 
 void name_space_test();
 
-void template_test();
-
 namespace fist_space {
     void func() {
         cout << "我是first命名空间的func方法\n";
@@ -49,28 +47,15 @@ namespace second_space {
  */
 
 int main() {
-    init_string();
-    init_student();
-    init_high_student();
+//    init_string();
+//    init_student();
+//
+//    init_high_student();
+//    init_high_student();
+//
+//    name_space_test();
 
-    //init_high_student();
-
-
-    //init_string();
-
-    //init_student();
-
-    // init_vector();
-
-    //name_space_test();
-
-    template_test();
-
-    cout << "Hello World\n";
-    //template_test();
-
-    cout << "hello world" << "\n";
-
+    init_vector();
     return 0;
 }
 
@@ -93,22 +78,6 @@ void init_vector() {
     cout << stu->getName() << "\n";
 }
 
-void template_test() {
-//    stack<int> dataStack;
-//    dataStack.push(2);
-//    dataStack.push(4);
-//    cout << "stack的size：：" << dataStack.size() << "\n";
-//
-//
-//    list<string> strList;
-//    strList.emplace_back("feng");
-//    strList.emplace_back("luo");
-//    strList.emplace_back("ye");
-//
-//    for (int i = 0; i < strList.size(); ++i) {
-//        strList.emplace_back(i);
-//    }
-}
 
 void name_space_test() {
     fist_space::func();
