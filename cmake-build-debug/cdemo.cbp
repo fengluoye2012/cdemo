@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cdemo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cdemo">
+				<Option output="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/cdemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/fengluoye/Desktop/c project/cdemo/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 cdemo"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cdemo/fast">
+				<Option output="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/cdemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/fengluoye/Desktop/c project/cdemo/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 cdemo/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/fengluoye/Desktop/c\ project/cdemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/Freshman.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/Freshman.h">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/HighStudent.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/HighStudent.h">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/Student.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/Student.h">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/StudentManagerHelper.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/StudentManagerHelper.h">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/main.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
