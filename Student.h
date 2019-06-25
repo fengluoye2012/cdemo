@@ -71,6 +71,7 @@ public:
      */
     void study();
 
+
     /**
      * 休息
      * 纯虚函数

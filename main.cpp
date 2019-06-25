@@ -8,6 +8,7 @@
 #include "HighStudent.h"
 #include "list"
 #include "stack"
+#include "TemplateTest.h"
 
 using std::string;
 using namespace std;
@@ -25,6 +26,8 @@ void init_high_student();
 // 本质上，命名空间就是定义了一个范围。
 
 void name_space_test();
+
+void templateTest();
 
 namespace fist_space {
     void func() {
@@ -55,8 +58,30 @@ int main() {
 //
 //    name_space_test();
 
-    init_vector();
+//    init_vector();
+
+    templateTest();
     return 0;
+}
+
+void templateTest() {
+    TemplateTest<int> test = TemplateTest<int>(10, 20);
+    TemplateTest<int> test2;
+    test2.setA(20);
+    test2.setB(30);
+
+    test.operator+(test2);
+
+    cout << "a::" << test.getA() << ",,b::" << test.getB() << "\n";
+
+    TemplateTest<string> str = TemplateTest<string>("feng", "男");
+    TemplateTest<string> str2;
+    str2.setA("luoye");
+    str2.setB("女");
+
+    str.operator+(str2);
+
+    cout << "a::" << str.getA() << ",,b::" << str.getB() << "\n";
 }
 
 //创建动态长度数组
@@ -125,7 +150,15 @@ void init_string() {
 
     cout << str << "\n";
     cout << two << "\n";
-    cout << name << "\n";
 
-    cout << "Hello, World!" << std::endl;
+    //拼接
+    name += "hahah";
+    name.append("append");
+
+    //能够存储的长度；
+    int capa = name.capacity();
+    //当前长度；
+    int length = name.size();
+    cout << name << ",," << capa << ",,," << length << "\n";
+
 }
