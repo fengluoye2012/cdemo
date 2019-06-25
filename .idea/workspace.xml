@@ -11,15 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7163761d-89a4-49ba-859f-f44b4f8c4805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TemplateTest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemplateTest.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Freshman.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Freshman.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/Student.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="7163761d-89a4-49ba-859f-f44b4f8c4805" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TemplateTest.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+            <state relative-caret-position="760">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="e#108#121#0" expanded="true" />
                 <element signature="e#359#371#0" expanded="true" />
@@ -116,6 +108,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -152,6 +145,11 @@
             <path>
               <item name="CTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="cdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561367771166</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="模版">
+      <created>1561431918894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561431918894</updated>
+    </task>
+    <task id="LOCAL-00006" summary="模版">
+      <created>1561432047839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561432047839</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -235,21 +247,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="928" y="23" width="1475" height="1313" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25298664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20379479" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907075" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.6248934" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48252344" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.48252344" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -265,7 +276,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="对象，继承，方法" />
     <MESSAGE value="修改bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改bug" />
+    <MESSAGE value="模版" />
+    <option name="LAST_COMMIT_MESSAGE" value="模版" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -435,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TemplateTest.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+        <state relative-caret-position="760">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="e#108#121#0" expanded="true" />
             <element signature="e#359#371#0" expanded="true" />
