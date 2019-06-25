@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fengluoye/Desktop/c project/cdemo/Freshman.cpp
+iostream
+/Users/fengluoye/Desktop/c project/cdemo/iostream
+Freshman.h
+/Users/fengluoye/Desktop/c project/cdemo/Freshman.h
+
+/Users/fengluoye/Desktop/c project/cdemo/Freshman.h
+Student.h
+/Users/fengluoye/Desktop/c project/cdemo/Student.h
+
+/Users/fengluoye/Desktop/c project/cdemo/HighStudent.cpp
+HighStudent.h
+/Users/fengluoye/Desktop/c project/cdemo/HighStudent.h
+iostream
+-
+
+/Users/fengluoye/Desktop/c project/cdemo/HighStudent.h
+Student.h
+/Users/fengluoye/Desktop/c project/cdemo/Student.h
+
+/Users/fengluoye/Desktop/c project/cdemo/Student.cpp
+iostream
+-
+Student.h
+/Users/fengluoye/Desktop/c project/cdemo/Student.h
+
+/Users/fengluoye/Desktop/c project/cdemo/Student.h
+string
+/Users/fengluoye/Desktop/c project/cdemo/string
+
+/Users/fengluoye/Desktop/c project/cdemo/StudentManagerHelper.cpp
+iostream
+-
+StudentManagerHelper.h
+/Users/fengluoye/Desktop/c project/cdemo/StudentManagerHelper.h
+
+/Users/fengluoye/Desktop/c project/cdemo/StudentManagerHelper.h
+array
+-
+vector
+/Users/fengluoye/Desktop/c project/cdemo/vector
+list
+/Users/fengluoye/Desktop/c project/cdemo/list
+string
+/Users/fengluoye/Desktop/c project/cdemo/string
+Student.h
+/Users/fengluoye/Desktop/c project/cdemo/Student.h
+Freshman.h
+/Users/fengluoye/Desktop/c project/cdemo/Freshman.h
+
+/Users/fengluoye/Desktop/c project/cdemo/main.cpp
+iostream
+-
+string
+-
+Student.h
+/Users/fengluoye/Desktop/c project/cdemo/Student.h
+array
+/Users/fengluoye/Desktop/c project/cdemo/array
+StudentManagerHelper.h
+/Users/fengluoye/Desktop/c project/cdemo/StudentManagerHelper.h
+Freshman.h
+/Users/fengluoye/Desktop/c project/cdemo/Freshman.h
+HighStudent.h
+/Users/fengluoye/Desktop/c project/cdemo/HighStudent.h
+list
+/Users/fengluoye/Desktop/c project/cdemo/list
+stack
+/Users/fengluoye/Desktop/c project/cdemo/stack
+
