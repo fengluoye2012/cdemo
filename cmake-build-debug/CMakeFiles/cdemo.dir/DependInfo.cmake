@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/fengluoye/Desktop/c project/cdemo/Freshman.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/Freshman.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/HighStudent.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/HighStudent.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/Student.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/Student.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/StudentManagerHelper.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/StudentManagerHelper.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/main.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/main.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/Freshman.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/Freshman.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/HighStudent.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/HighStudent.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/Student.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/Student.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/StudentManagerHelper.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/StudentManagerHelper.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/main.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

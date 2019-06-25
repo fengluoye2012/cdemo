@@ -1,4 +1,4 @@
-# Install script for directory: /Users/fengluoye/Desktop/c project/cdemo
+# Install script for directory: /Users/mac/Desktop/C:C++/cdemo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
