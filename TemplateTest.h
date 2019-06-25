@@ -72,6 +72,7 @@ T TemplateTest<T>::getB() const {
     return b;
 }
 
+
 template<typename T>
 void TemplateTest<T>::setB(T b) {
     TemplateTest::b = b;
