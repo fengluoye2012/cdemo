@@ -23,7 +23,7 @@ protected:
 public:
     LinkTest();
 
-    LinkTest(FRESHMANLIST* list);
+//    LinkTest(FRESHMANLIST* list);
 
     void  add(Freshman freshman);
 

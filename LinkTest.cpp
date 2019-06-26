@@ -10,10 +10,10 @@ using std::list;
 
 LinkTest::LinkTest() {}
 
-LinkTest::LinkTest(FRESHMANLIST *list) {
-   list->merge(this->list);
-
-}
+//LinkTest::LinkTest(FRESHMANLIST *list) {
+//   list->merge(this->list);
+//
+//}
 
 void LinkTest::add(Freshman freshman) {
 

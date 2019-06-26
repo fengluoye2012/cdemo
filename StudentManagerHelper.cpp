@@ -7,6 +7,12 @@
 
 using namespace std;
 
+int StudentManagerHelper::a = 10;
+/**
+ * 域操作符（::)表示方法是该类的方法；
+ * @param student
+ */
+//const 修饰的方法，表示只读；无法对变量进行操作
 void StudentManagerHelper::addStudent(Freshman student) {
     stuVector.push_back(student);//在数组尾部添加一个元素；
 }
@@ -18,6 +24,7 @@ Freshman *StudentManagerHelper::getStudent(int pos) {
     return pos < stuVector.size() ? &stuVector[pos] : NULL;
 }
 
+//const 修饰的方法，表示只读；无法对变量进行操作
 void StudentManagerHelper::insertStudent(Freshman student) {
     stuVector.insert(stuVector.begin(), student);
 }
@@ -40,4 +47,8 @@ void StudentManagerHelper::getStudents() {
 
 void StudentManagerHelper::getStudentCount() {
     cout << (int) stuVector.size() << "\n";
+}
+
+int  StudentManagerHelper::getStaticMethod() {
+    return StudentManagerHelper::a;
 }

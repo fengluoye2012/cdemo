@@ -9,6 +9,11 @@ CMakeFiles/cdemo.dir/HighStudent.cpp.o: ../HighStudent.cpp
 CMakeFiles/cdemo.dir/HighStudent.cpp.o: ../HighStudent.h
 CMakeFiles/cdemo.dir/HighStudent.cpp.o: ../Student.h
 
+CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../Freshman.h
+CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../LinkTest.cpp
+CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../LinkTest.h
+CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../Student.h
+
 CMakeFiles/cdemo.dir/Student.cpp.o: ../Student.cpp
 CMakeFiles/cdemo.dir/Student.cpp.o: ../Student.h
 
@@ -21,6 +26,6 @@ CMakeFiles/cdemo.dir/main.cpp.o: ../Freshman.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../HighStudent.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../Student.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../StudentManagerHelper.h
-CMakeFiles/cdemo.dir/main.cpp.o: ../TemplateTest.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../main.cpp
+CMakeFiles/cdemo.dir/main.cpp.o: ../template/TemplateTest.h
 

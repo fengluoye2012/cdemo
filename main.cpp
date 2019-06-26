@@ -29,6 +29,8 @@ void name_space_test();
 
 void templateTest();
 
+void staticTest();
+
 namespace fist_space {
     void func() {
         cout << "我是first命名空间的func方法\n";
@@ -60,8 +62,22 @@ int main() {
 
 //    init_vector();
 
-    templateTest();
+//    templateTest();
+    staticTest();
+
     return 0;
+}
+
+void staticTest() {
+    //静态变量的使用和初始化
+    cout << "使用静态变量：："<< StudentManagerHelper::a<< "\n";
+
+    int a = StudentManagerHelper::a+20;
+    int b = StudentManagerHelper::b+10;
+
+    cout << "a：："<< a <<",,b::" << b<<  "\n";
+
+   cout<< "staticMethod::" << StudentManagerHelper::getStaticMethod()<<"\n";
 }
 
 void templateTest() {
@@ -87,6 +103,7 @@ void templateTest() {
 //创建动态长度数组
 void init_vector() {
     StudentManagerHelper studentManagerHelper;
+
     studentManagerHelper.addStudent(Freshman("feng", 12, 1, 4));
 
     studentManagerHelper.getStudentCount();

@@ -5,6 +5,10 @@
 #ifndef CTEST_TEMPLATETEST_H
 #define CTEST_TEMPLATETEST_H
 
+#include "iostream"
+
+using namespace std;
+
 /**
  * 为什么要定义模版
  * 类型程序设计中，参与运算的所有对象的类型在编译时即确定下来，并且编译程序将进行严格的类型检查。为了解决强类型的严格性和灵活性的冲突。有以下3种方式解决：

@@ -37,6 +37,11 @@ protected:
     vector<Freshman>stuVector;
 
 public:
+    //静态变量(只能被初始化)；
+    static  int a;
+    //静态常量；只能被访问；
+    static  const  int b = 100;
+
     void addStudent(Freshman student);
 
     Freshman * getStudent(int pos);
@@ -48,7 +53,10 @@ public:
     void getStudents();
 
     void getStudentCount();
+
+    static int getStaticMethod();
 };
+
 
 
 #endif //CTEST_STUDENTMANAGERHELPER_H
