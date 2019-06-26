@@ -96,6 +96,12 @@
 		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/HighStudent.h">
 			<Option target="cdemo"/>
 		</Unit>
+		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/LinkTest.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/LinkTest.h">
+			<Option target="cdemo"/>
+		</Unit>
 		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/Student.cpp">
 			<Option target="cdemo"/>
 		</Unit>

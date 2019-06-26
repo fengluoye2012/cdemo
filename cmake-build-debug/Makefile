@@ -177,6 +177,33 @@ HighStudent.cpp.s:
 	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/HighStudent.cpp.s
 .PHONY : HighStudent.cpp.s
 
+LinkTest.o: LinkTest.cpp.o
+
+.PHONY : LinkTest.o
+
+# target to build an object file
+LinkTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/LinkTest.cpp.o
+.PHONY : LinkTest.cpp.o
+
+LinkTest.i: LinkTest.cpp.i
+
+.PHONY : LinkTest.i
+
+# target to preprocess a source file
+LinkTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/LinkTest.cpp.i
+.PHONY : LinkTest.cpp.i
+
+LinkTest.s: LinkTest.cpp.s
+
+.PHONY : LinkTest.s
+
+# target to generate assembly for a file
+LinkTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/LinkTest.cpp.s
+.PHONY : LinkTest.cpp.s
+
 Student.o: Student.cpp.o
 
 .PHONY : Student.o
@@ -273,6 +300,9 @@ help:
 	@echo "... HighStudent.o"
 	@echo "... HighStudent.i"
 	@echo "... HighStudent.s"
+	@echo "... LinkTest.o"
+	@echo "... LinkTest.i"
+	@echo "... LinkTest.s"
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"

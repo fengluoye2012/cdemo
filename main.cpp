@@ -8,7 +8,7 @@
 #include "HighStudent.h"
 #include "list"
 #include "stack"
-#include "TemplateTest.h"
+#include "template/TemplateTest.h"
 
 using std::string;
 using namespace std;

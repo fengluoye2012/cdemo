@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cdemo.dir/main.cpp.o"
   "CMakeFiles/cdemo.dir/Student.cpp.o"
   "CMakeFiles/cdemo.dir/StudentManagerHelper.cpp.o"
+  "CMakeFiles/cdemo.dir/LinkTest.cpp.o"
   "cdemo.pdb"
   "cdemo"
 )

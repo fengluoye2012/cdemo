@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mac/Desktop/C:C++/cdemo/Freshman.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/Freshman.cpp.o"
   "/Users/mac/Desktop/C:C++/cdemo/HighStudent.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/HighStudent.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/LinkTest.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/LinkTest.cpp.o"
   "/Users/mac/Desktop/C:C++/cdemo/Student.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/Student.cpp.o"
   "/Users/mac/Desktop/C:C++/cdemo/StudentManagerHelper.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/StudentManagerHelper.cpp.o"
   "/Users/mac/Desktop/C:C++/cdemo/main.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/main.cpp.o"
