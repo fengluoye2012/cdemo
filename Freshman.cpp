@@ -15,6 +15,10 @@ void Freshman::sleep() {
     std::cout << "大一新生休息时间多";
 }
 
+Freshman::Freshman(const string &name) : Student(name) {}
+
+
+
 
 
 

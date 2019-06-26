@@ -66,4 +66,6 @@ void Student::study() {
     cout << "学生每天都要要学习\n";
 }
 
+Student::Student(const string &name) : name(name) {}
+
 

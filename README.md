@@ -39,4 +39,5 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 
 作用域符号::的前面一般是类名称，后面一般是该类的成员名称。
 
-8、
+8、list的用法 https://blog.csdn.net/lskyne/article/details/10418823；
+

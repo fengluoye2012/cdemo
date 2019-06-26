@@ -10,20 +10,19 @@ using std::list;
 
 LinkTest::LinkTest() {}
 
-//LinkTest::LinkTest(FRESHMANLIST *list) {
-//   list->merge(this->list);
-//
-//}
+LinkTest::LinkTest(FRESHMANLIST list) {
+   this->list = list;
+}
 
 void LinkTest::add(Freshman freshman) {
 
 }
 
-void LinkTest::get() {
+Freshman LinkTest::get(int pos) {
 
 }
 
-void LinkTest::deleteNode() {
+void LinkTest::deleteNode(int pos) {
 
 }
 

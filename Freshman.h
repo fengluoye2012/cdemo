@@ -11,6 +11,9 @@
 class Freshman :public Student{
 public:
     Freshman();
+
+    Freshman(const string &name);
+
     Freshman(const string &name, int age, int sex, int grade);
 
 public:

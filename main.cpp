@@ -9,6 +9,7 @@
 #include "list"
 #include "stack"
 #include "template/TemplateTest.h"
+#include "LinkTest.h"
 
 using std::string;
 using namespace std;
@@ -30,6 +31,8 @@ void name_space_test();
 void templateTest();
 
 void staticTest();
+
+void listTest();
 
 namespace fist_space {
     void func() {
@@ -63,21 +66,42 @@ int main() {
 //    init_vector();
 
 //    templateTest();
-    staticTest();
+//    staticTest();
 
+    listTest();
     return 0;
+}
+
+//定义别名；
+typedef  list<Freshman> FRESHMAN;
+void listTest() {
+    FRESHMAN list1;
+    list1.emplace_back(Freshman("feng"));
+    list1.emplace_back(Freshman("luo"));
+    list1.emplace_back(Freshman("ye"));
+
+    //普通循环；
+    for (int i = 0; i < list1.size();++i) {
+      cout << "名称：：" << list1.front().getName()<<"\n";
+    }
+
+    //迭代器；
+    FRESHMAN::iterator ite;
+    for(ite = list1.begin();ite != list1.end();ite++){
+       std:: cout <<  (*ite).getName() <<"\n";
+    }
 }
 
 void staticTest() {
     //静态变量的使用和初始化
-    cout << "使用静态变量：："<< StudentManagerHelper::a<< "\n";
+    cout << "使用静态变量：：" << StudentManagerHelper::a << "\n";
 
-    int a = StudentManagerHelper::a+20;
-    int b = StudentManagerHelper::b+10;
+    int a = StudentManagerHelper::a + 20;
+    int b = StudentManagerHelper::b + 10;
 
-    cout << "a：："<< a <<",,b::" << b<<  "\n";
+    cout << "a：：" << a << ",,b::" << b << "\n";
 
-   cout<< "staticMethod::" << StudentManagerHelper::getStaticMethod()<<"\n";
+    cout << "staticMethod::" << StudentManagerHelper::getStaticMethod() << "\n";
 }
 
 void templateTest() {

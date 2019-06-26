@@ -31,6 +31,7 @@ class Student {
 protected:
     //成员变量
     string name;
+protected:
     int age;
     int sex;
     int grade;
@@ -58,8 +59,9 @@ public:
     //构造函数:在初始化的时候调用;
     Student();
 
-    Student(string name, int age, int sex, int grade);
+    Student(const string &name);
 
+    Student(string name, int age, int sex, int grade);
 
     //析构函数:每次删除对象时 执行;
     ~Student();

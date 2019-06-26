@@ -23,13 +23,13 @@ protected:
 public:
     LinkTest();
 
-//    LinkTest(FRESHMANLIST* list);
+    LinkTest(FRESHMANLIST list);
 
-    void  add(Freshman freshman);
+    void add(Freshman freshman);
 
-    void get();
+    Freshman get(int pos);
 
-    void deleteNode();
+    void deleteNode(int pos);
 
 };
 
