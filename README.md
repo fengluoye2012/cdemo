@@ -5,6 +5,8 @@
 1:template(模版)的使用；
 分为：函数模版和类模版樱的最为广泛；
 https://www.cnblogs.com/Hwangzhiyoung/p/8624369.html
+深入理解模版
+https://blog.csdn.net/lezardfu/article/details/56852043
 
 2：继承的深入理解；https://www.cnblogs.com/33debug/p/6666939.html;
 分为共有继承（public）、私有继承（private）、保护继承（protected）

@@ -24,6 +24,7 @@ CMakeFiles/cdemo.dir/StudentManagerHelper.cpp.o: ../StudentManagerHelper.h
 
 CMakeFiles/cdemo.dir/main.cpp.o: ../Freshman.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../HighStudent.h
+CMakeFiles/cdemo.dir/main.cpp.o: ../LinkTest.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../Student.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../StudentManagerHelper.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../main.cpp
