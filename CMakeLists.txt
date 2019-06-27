@@ -14,4 +14,6 @@ add_executable(cdemo
         student/Student.cpp
         student/Student.h
         student/StudentManagerHelper.cpp
-        student/StudentManagerHelper.h LinkTest.cpp LinkTest.h)
+        student/StudentManagerHelper.h
+        LinkTest.cpp
+        LinkTest.h)

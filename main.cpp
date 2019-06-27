@@ -1,4 +1,5 @@
 #include <iostream>
+#include <thread>
 #include <string>
 //引入头文件；
 #include "student/Student.h"
@@ -13,6 +14,8 @@
 
 using std::string;
 using namespace std;
+using std::thread;
+
 
 //申明一个方法；
 void init_string();
@@ -33,6 +36,11 @@ void templateTest();
 void staticTest();
 
 void listTest();
+
+void myPrintIn();
+
+void threadTest();
+
 
 namespace fist_space {
     void func() {
@@ -68,12 +76,29 @@ int main() {
 //    templateTest();
 //    staticTest();
 
-    listTest();
+//    listTest();
+
+    threadTest();
+
     return 0;
 }
 
+void threadTest(){
+    std::thread thread1(myPrintIn);
+    thread1.join();
+    cout << "Main 线程" << "\n";
+
+
+}
+
+void myPrintIn() {
+    cout << "我是子线程" << "\n";
+}
+
+
 //定义别名；
-typedef  list<Freshman> FRESHMAN;
+typedef list<Freshman> FRESHMAN;
+
 void listTest() {
     FRESHMAN list1;
     list1.emplace_back(Freshman("feng"));
@@ -81,14 +106,14 @@ void listTest() {
     list1.emplace_back(Freshman("ye"));
 
     //普通循环；
-    for (int i = 0; i < list1.size();++i) {
-      cout << "名称：：" << list1.front().getName()<<"\n";
+    for (int i = 0; i < list1.size(); ++i) {
+        cout << "名称：：" << list1.front().getName() << "\n";
     }
 
     //迭代器；
     FRESHMAN::iterator ite;
-    for(ite = list1.begin();ite != list1.end();ite++){
-       std:: cout <<  (*ite).getName() <<"\n";
+    for (ite = list1.begin(); ite != list1.end(); ite++) {
+        std::cout << (*ite).getName() << "\n";
     }
 }
 

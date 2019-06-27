@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cdemo.dir/Freshman.cpp.o"
-  "CMakeFiles/cdemo.dir/HighStudent.cpp.o"
+  "CMakeFiles/cdemo.dir/student/Freshman.cpp.o"
+  "CMakeFiles/cdemo.dir/student/HighStudent.cpp.o"
   "CMakeFiles/cdemo.dir/main.cpp.o"
-  "CMakeFiles/cdemo.dir/Student.cpp.o"
-  "CMakeFiles/cdemo.dir/StudentManagerHelper.cpp.o"
+  "CMakeFiles/cdemo.dir/student/Student.cpp.o"
+  "CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o"
   "CMakeFiles/cdemo.dir/LinkTest.cpp.o"
   "cdemo.pdb"
   "cdemo"
