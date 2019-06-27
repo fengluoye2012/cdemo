@@ -6,12 +6,12 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(cdemo
-        Freshman.cpp
-        Freshman.h
-        HighStudent.cpp
-        HighStudent.h
+        student/Freshman.cpp
+        student/Freshman.h
+        student/HighStudent.cpp
+        student/HighStudent.h
         main.cpp
-        Student.cpp
-        Student.h
-        StudentManagerHelper.cpp
-        StudentManagerHelper.h LinkTest.cpp LinkTest.h)
+        student/Student.cpp
+        student/Student.h
+        student/StudentManagerHelper.cpp
+        student/StudentManagerHelper.h LinkTest.cpp LinkTest.h)

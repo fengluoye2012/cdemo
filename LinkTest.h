@@ -6,7 +6,7 @@
 #define CDEMO_LINKTEST_H
 
 #include "list"
-#include "Freshman.h"
+#include "student/Freshman.h"
 using namespace std;
 using std::list;
 

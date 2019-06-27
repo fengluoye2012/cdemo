@@ -1,11 +1,11 @@
 #include <iostream>
 #include <string>
 //引入头文件；
-#include "Student.h"
+#include "student/Student.h"
 #include "array"
-#include "StudentManagerHelper.h"
-#include "Freshman.h"
-#include "HighStudent.h"
+#include "student/StudentManagerHelper.h"
+#include "student/Freshman.h"
+#include "student/HighStudent.h"
 #include "list"
 #include "stack"
 #include "template/TemplateTest.h"

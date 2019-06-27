@@ -16,6 +16,9 @@ https://blog.csdn.net/baiyq369/article/details/54926983
 
 4：typedef:用来定义别名；
 
+复杂用法：为复杂的声明定义一个新的简单的别名；
+https://www.cnblogs.com/seventhsaint/archive/2012/11/18/2805660.html
+
 5、函数传参：https://blog.csdn.net/u012814856/article/details/83410552
 - 按值传参：函数接收到了传递过来的参数后，将其拷贝一份，其函数内部执行的代码操作的都是传递参数的拷贝；
            也就是说，按值传参最大的特点就是不会影响到传递过来的参数的值，但因为拷贝了一份副本，会更浪费资源一些。
@@ -42,4 +45,9 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 作用域符号::的前面一般是类名称，后面一般是该类的成员名称。
 
 8、list的用法 https://blog.csdn.net/lskyne/article/details/10418823；
+
+9、多线程：https://blog.csdn.net/ouyangfushu/article/details/80199140
+1）join()：主线程等待子线程运行结束后，才执行下一步；串行
+2）detach()：独立于主线程并发执行，主线程后续代码无需等待；
+
 
