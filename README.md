@@ -14,7 +14,10 @@ https://blog.csdn.net/lezardfu/article/details/56852043
 3：构造函数的写法
 https://blog.csdn.net/baiyq369/article/details/54926983
 
-4：typedef:用来定义别名；
+4：typedef: https://www.cnblogs.com/charley_yang/archive/2010/12/15/1907384.html
+1)定义一种类型的别名，而不只是简单的宏替换。可以用作同时声明指针型的多个对象
+2)为复杂的声明定义一个新的简单的别名。(难点)；
+方法是：在原来的声明里逐步用别名替换一部分复杂声明，如此循环，把带变量名的部分留到最后替换，得到的就是原声明的最简化版。
 
 5、函数传参：https://blog.csdn.net/u012814856/article/details/83410552
 - 按值传参：函数接收到了传递过来的参数后，将其拷贝一份，其函数内部执行的代码操作的都是传递参数的拷贝；
@@ -42,4 +45,6 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 作用域符号::的前面一般是类名称，后面一般是该类的成员名称。
 
 8、list的用法 https://blog.csdn.net/lskyne/article/details/10418823；
+
+9、指针：变量指针，二级指针，指针类型的数据，函数指针（难点）
 
