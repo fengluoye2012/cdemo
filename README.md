@@ -18,6 +18,7 @@ https://blog.csdn.net/baiyq369/article/details/54926983
 1)定义一种类型的别名，而不只是简单的宏替换。可以用作同时声明指针型的多个对象
 2)为复杂的声明定义一个新的简单的别名。(难点)；
 方法是：在原来的声明里逐步用别名替换一部分复杂声明，如此循环，把带变量名的部分留到最后替换，得到的就是原声明的最简化版。
+https://www.cnblogs.com/seventhsaint/archive/2012/11/18/2805660.html
 
 5、函数传参：https://blog.csdn.net/u012814856/article/details/83410552
 - 按值传参：函数接收到了传递过来的参数后，将其拷贝一份，其函数内部执行的代码操作的都是传递参数的拷贝；
@@ -47,4 +48,9 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 8、list的用法 https://blog.csdn.net/lskyne/article/details/10418823；
 
 9、指针：变量指针，二级指针，指针类型的数据，函数指针（难点）
+
+10、多线程：https://blog.csdn.net/ouyangfushu/article/details/80199140
+1）join()：主线程等待子线程运行结束后，才执行下一步；串行
+2）detach()：独立于主线程并发执行，主线程后续代码无需等待；
+
 

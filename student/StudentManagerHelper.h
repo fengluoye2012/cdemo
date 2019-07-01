@@ -11,7 +11,7 @@
 #include "string"
 
 #include "Student.h"
-#include "Freshman.h"
+#include "student/Freshman.h"
 using namespace std;
 //using std::array;
 
