@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/fengluoye/Desktop/c project/cdemo/student/HighStudent.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/HighStudent.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/student/Student.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/Student.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/student/StudentManagerHelper.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o"
+  "/Users/fengluoye/Desktop/c project/cdemo/thread_test/ThreadTest.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

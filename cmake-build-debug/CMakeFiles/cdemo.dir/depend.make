@@ -13,6 +13,7 @@ CMakeFiles/cdemo.dir/main.cpp.o: ../student/HighStudent.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../student/Student.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../student/StudentManagerHelper.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../template/TemplateTest.h
+CMakeFiles/cdemo.dir/main.cpp.o: ../thread_test/ThreadTest.h
 
 CMakeFiles/cdemo.dir/student/Freshman.cpp.o: ../student/Freshman.cpp
 CMakeFiles/cdemo.dir/student/Freshman.cpp.o: ../student/Freshman.h
@@ -29,4 +30,7 @@ CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o: .././student/Freshman.h
 CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o: ../student/Student.h
 CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o: ../student/StudentManagerHelper.cpp
 CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o: ../student/StudentManagerHelper.h
+
+CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.o: ../thread_test/ThreadTest.cpp
+CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.o: ../thread_test/ThreadTest.h
 

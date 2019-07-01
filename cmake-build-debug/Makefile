@@ -285,6 +285,33 @@ student/StudentManagerHelper.cpp.s:
 	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.s
 .PHONY : student/StudentManagerHelper.cpp.s
 
+thread_test/ThreadTest.o: thread_test/ThreadTest.cpp.o
+
+.PHONY : thread_test/ThreadTest.o
+
+# target to build an object file
+thread_test/ThreadTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.o
+.PHONY : thread_test/ThreadTest.cpp.o
+
+thread_test/ThreadTest.i: thread_test/ThreadTest.cpp.i
+
+.PHONY : thread_test/ThreadTest.i
+
+# target to preprocess a source file
+thread_test/ThreadTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.i
+.PHONY : thread_test/ThreadTest.cpp.i
+
+thread_test/ThreadTest.s: thread_test/ThreadTest.cpp.s
+
+.PHONY : thread_test/ThreadTest.s
+
+# target to generate assembly for a file
+thread_test/ThreadTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.s
+.PHONY : thread_test/ThreadTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +339,9 @@ help:
 	@echo "... student/StudentManagerHelper.o"
 	@echo "... student/StudentManagerHelper.i"
 	@echo "... student/StudentManagerHelper.s"
+	@echo "... thread_test/ThreadTest.o"
+	@echo "... thread_test/ThreadTest.i"
+	@echo "... thread_test/ThreadTest.s"
 .PHONY : help
 
 

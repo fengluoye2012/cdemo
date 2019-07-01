@@ -115,6 +115,12 @@
 		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/student/StudentManagerHelper.h">
 			<Option target="cdemo"/>
 		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/thread_test/ThreadTest.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/thread_test/ThreadTest.h">
+			<Option target="cdemo"/>
+		</Unit>
 		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
