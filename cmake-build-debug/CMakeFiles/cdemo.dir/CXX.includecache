@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fengluoye/Desktop/c project/cdemo/thread_test/ThreadTest.cpp
+iostream
+/Users/fengluoye/Desktop/c project/cdemo/thread_test/iostream
+ThreadTest.h
+/Users/fengluoye/Desktop/c project/cdemo/thread_test/ThreadTest.h
+thread
+/Users/fengluoye/Desktop/c project/cdemo/thread_test/thread
+
+/Users/fengluoye/Desktop/c project/cdemo/thread_test/ThreadTest.h
+
