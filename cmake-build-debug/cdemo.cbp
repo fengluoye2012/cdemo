@@ -117,6 +117,12 @@
 		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/student/StudentManagerHelper.h">
 			<Option target="cdemo"/>
 		</Unit>
+		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/thread_test/ThreadTest.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/thread_test/ThreadTest.h">
+			<Option target="cdemo"/>
+		</Unit>
 		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
