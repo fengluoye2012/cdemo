@@ -11,6 +11,7 @@
 #include "stack"
 #include "template/TemplateTest.h"
 #include "LinkTest.h"
+#include "thread_test/ThreadTest.h"
 
 using std::string;
 using namespace std;
@@ -83,11 +84,15 @@ int main() {
     return 0;
 }
 
+//开启子线程需要注意，参数为方法名；
 void threadTest(){
     std::thread thread1(myPrintIn);
     thread1.join();
     cout << "Main 线程" << "\n";
 
+    ThreadTest threadTest = ThreadTest();
+    threadTest.startThread();
+    threadTest.startThread(12);
 
 
 }
