@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pointer/PointerTest.o: pointer/PointerTest.cpp.o
+
+.PHONY : pointer/PointerTest.o
+
+# target to build an object file
+pointer/PointerTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o
+.PHONY : pointer/PointerTest.cpp.o
+
+pointer/PointerTest.i: pointer/PointerTest.cpp.i
+
+.PHONY : pointer/PointerTest.i
+
+# target to preprocess a source file
+pointer/PointerTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.i
+.PHONY : pointer/PointerTest.cpp.i
+
+pointer/PointerTest.s: pointer/PointerTest.cpp.s
+
+.PHONY : pointer/PointerTest.s
+
+# target to generate assembly for a file
+pointer/PointerTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.s
+.PHONY : pointer/PointerTest.cpp.s
+
 student/Freshman.o: student/Freshman.cpp.o
 
 .PHONY : student/Freshman.o
@@ -327,6 +354,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pointer/PointerTest.o"
+	@echo "... pointer/PointerTest.i"
+	@echo "... pointer/PointerTest.s"
 	@echo "... student/Freshman.o"
 	@echo "... student/Freshman.i"
 	@echo "... student/Freshman.s"

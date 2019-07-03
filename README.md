@@ -53,7 +53,7 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 1）join()：主线程等待子线程运行结束后，才执行下一步；串行
 2）detach()：独立于主线程并发执行，主线程后续代码无需等待；
 
-10:指针
+10:指针 https://blog.csdn.net/soonfly/article/details/51131141
 * 取地址符；&
 1）指针（一级指针）：
 2）函数指针：

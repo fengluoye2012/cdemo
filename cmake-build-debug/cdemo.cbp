@@ -93,6 +93,12 @@
 		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/main.cpp">
 			<Option target="cdemo"/>
 		</Unit>
+		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/pointer/PointerTest.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/pointer/PointerTest.h">
+			<Option target="cdemo"/>
+		</Unit>
 		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/student/Freshman.cpp">
 			<Option target="cdemo"/>
 		</Unit>
