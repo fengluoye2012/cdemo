@@ -12,6 +12,7 @@
 #include "template/TemplateTest.h"
 #include "LinkTest.h"
 #include "thread_test/ThreadTest.h"
+#include "pointer/PointerTest.h"
 
 using std::string;
 using namespace std;
@@ -41,6 +42,8 @@ void listTest();
 void myPrintIn();
 
 void threadTest();
+
+void pointerTest();
 
 
 namespace fist_space {
@@ -79,13 +82,22 @@ int main() {
 
 //    listTest();
 
-    threadTest();
+//    threadTest();
+
+    pointerTest();
 
     return 0;
 }
 
+void pointerTest() {
+    PointerTest pointerTest1 = PointerTest();
+    //pointerTest1.pointer_test();
+//    pointerTest1.array_pointer_test();
+    pointerTest1.pointer_arr_test();
+}
+
 //开启子线程需要注意，参数为方法名；
-void threadTest(){
+void threadTest() {
     std::thread thread1(myPrintIn);
     thread1.join();
     cout << "Main 线程" << "\n";
