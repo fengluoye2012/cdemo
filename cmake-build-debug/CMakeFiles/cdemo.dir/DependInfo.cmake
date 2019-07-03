@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/fengluoye/Desktop/c project/cdemo/LinkTest.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/LinkTest.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/main.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/main.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/student/Freshman.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/Freshman.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/student/HighStudent.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/HighStudent.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/student/Student.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/Student.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/student/StudentManagerHelper.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o"
-  "/Users/fengluoye/Desktop/c project/cdemo/thread_test/ThreadTest.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/LinkTest.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/LinkTest.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/main.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/main.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/pointer/PointerTest.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/student/Freshman.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/Freshman.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/student/HighStudent.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/HighStudent.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/student/Student.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/Student.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/student/StudentManagerHelper.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/thread_test/ThreadTest.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
