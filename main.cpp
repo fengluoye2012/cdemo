@@ -93,7 +93,8 @@ void pointerTest() {
     PointerTest pointerTest1 = PointerTest();
     //pointerTest1.pointer_test();
 //    pointerTest1.array_pointer_test();
-    pointerTest1.pointer_arr_test();
+//    pointerTest1.pointer_arr_test();
+    pointerTest1.method_pointer_test();
 }
 
 //开启子线程需要注意，参数为方法名；

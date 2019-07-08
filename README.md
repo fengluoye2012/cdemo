@@ -11,8 +11,15 @@ https://blog.csdn.net/lezardfu/article/details/56852043
 2：继承的深入理解；https://www.cnblogs.com/33debug/p/6666939.html;
 分为共有继承（public）、私有继承（private）、保护继承（protected）
 
-3：构造函数的写法
-https://blog.csdn.net/baiyq369/article/details/54926983
+3：函数 https://www.cnblogs.com/oldyogurt/p/9109774.html
+1)构造函数：https://blog.csdn.net/wang13342322203/article/details/80807676
+1.1)构造函数:
+1.2)拷贝构造函数
+1.3)析构函数）
+2）函数:
+3）虚函数:
+
+
 
 4：typedef: https://www.cnblogs.com/charley_yang/archive/2010/12/15/1907384.html
 1)定义一种类型的别名，而不只是简单的宏替换。可以用作同时声明指针型的多个对象
@@ -59,6 +66,7 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 2）函数指针：
 2）二级指针：
 3）函数指针（重点）：https://www.cnblogs.com/lvchaoshun/p/7806248.html
+https://blog.csdn.net/qq_35618527/article/details/76796707
 
 11：函数重载
 函数重载是指在同一作用域内，可以有一组具有相同函数名，不同参数列表的函数，这组函数被称为重载函数。

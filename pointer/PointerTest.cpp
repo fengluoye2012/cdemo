@@ -59,14 +59,43 @@ void PointerTest::pointer_arr_test() {
     //定义数组指针；指向含3个元素的一维数组；
     int (*p2)[3];
     //二维数组
-    int arr2[3][3]={2,4,6,8,10,12,14,16,18};
+    int arr2[3][3] = {2, 4, 6, 8, 10, 12, 14, 16, 18};
     p2 = arr2;
-
 
 
 }
 
-//函数和指针的转换
+/**
+ * 函数和指针的转换
+ * 函数指针：
+ * 就象某一数据变量的内存地址可以存储在相应的指针变量中一样，函数的首地址也以存储在某个函数指针变量里的。
+ * 这样，我就可以通过这个函数指针变量来调用所指向的函数了。
+ */
 void PointerTest::method_pointer_test() {
+    //第一种：函数指针的使用；
+    //定义一个 有两个int类型参数，返回值是void 的类型的函数指针；
+    void (*pf)(int, int);
+    //通过赋值使得函数指针指向某个具体函数；
+    pf = swap;
+    //调用函数
+    pf(1, 3);
+
+    //第二种：
+    void (*pf_01)(int, int) =swap;
+    (*pf_01)(2, 5);
+
+    //第三种
+    typedef void (*PF)(int, int);
+    PF pf_02 = swap;
+    pf_02(3, 7);
+
+}
+
+void PointerTest::swap(int a, int b) {
+
+    int c = a;
+    a = b;
+    b = c;
+    cout << "a::" << a << ",,b::" << b << "\n";
 
 }

@@ -48,6 +48,8 @@ public:
 
     void pointer_arr_test();
 
+    static void swap(int a, int b);
+
     void method_pointer_test();
 
 
