@@ -94,7 +94,20 @@ void pointerTest() {
     //pointerTest1.pointer_test();
 //    pointerTest1.array_pointer_test();
 //    pointerTest1.pointer_arr_test();
-    pointerTest1.method_pointer_test();
+//    pointerTest1.method_pointer_test();
+
+    //指针参数；
+    int a = 10;
+    pointerTest1.pointerParam(&a);
+    cout << "a的值：：" << a<<"\n";
+
+    //定义一个函数指针；
+    typedef void (*PF)(int, int);
+    //赋值；
+    PF pf = PointerTest::swap;
+    //函数指针作为参数
+    pointerTest1.pointerMethodParam(pf);
+
 }
 
 //开启子线程需要注意，参数为方法名；

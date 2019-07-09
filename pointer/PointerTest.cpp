@@ -99,3 +99,33 @@ void PointerTest::swap(int a, int b) {
     cout << "a::" << a << ",,b::" << b << "\n";
 
 }
+
+/**
+ * 指针作为参数
+ * @param a
+ * @param b
+ */
+void PointerTest::pointerParam(int *a) {
+    (*a) = 20;
+
+
+    //同一个类中函数的调用；
+//    //声明函数指针；
+//    typedef  void (*PF)(int,int);
+//    PF pf = swap;
+//    pointerMethodParam(pf);
+//
+//    method_pointer_test();
+}
+
+/**
+ * 函数指针作为参数
+ * @param pf
+ */
+void PointerTest::pointerMethodParam(void (*pf)(int,int)) {
+    pf(10,23);
+}
+
+void PointerTest::swap_change(int a, int b) {
+    PointerTest::swap(a,b);
+}

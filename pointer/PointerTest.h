@@ -50,7 +50,14 @@ public:
 
     static void swap(int a, int b);
 
+    void swap_change(int a,int b);
+
     void method_pointer_test();
+
+    void pointerParam(int *a);
+
+
+    void pointerMethodParam(void (*p)(int, int));
 
 
 };
