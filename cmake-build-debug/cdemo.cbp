@@ -88,6 +88,24 @@
 		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/LinkTest.h">
 			<Option target="cdemo"/>
 		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/interface_test/Action.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/interface_test/Action.h">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/interface_test/Bird.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/interface_test/Bird.h">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/interface_test/Fish.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/interface_test/Fish.h">
+			<Option target="cdemo"/>
+		</Unit>
 		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/main.cpp">
 			<Option target="cdemo"/>
 		</Unit>

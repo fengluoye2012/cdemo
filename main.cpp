@@ -13,6 +13,8 @@
 #include "LinkTest.h"
 #include "thread_test/ThreadTest.h"
 #include "pointer/PointerTest.h"
+#include "interface_test/Bird.h"
+#include "interface_test/Fish.h"
 
 using std::string;
 using namespace std;
@@ -45,6 +47,7 @@ void threadTest();
 
 void pointerTest();
 
+void interfaceTest();
 
 namespace fist_space {
     void func() {
@@ -84,9 +87,20 @@ int main() {
 
 //    threadTest();
 
-    pointerTest();
+//    pointerTest();
+
+    interfaceTest();
 
     return 0;
+}
+
+
+void interfaceTest() {
+    Bird bird = Bird();
+    bird.action();
+
+    Fish fish = Fish();
+    fish.action();
 }
 
 void pointerTest() {
@@ -99,7 +113,7 @@ void pointerTest() {
     //指针参数；
     int a = 10;
     pointerTest1.pointerParam(&a);
-    cout << "a的值：：" << a<<"\n";
+    cout << "a的值：：" << a << "\n";
 
     //定义一个函数指针；
     typedef void (*PF)(int, int);

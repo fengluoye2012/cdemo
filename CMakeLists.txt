@@ -16,4 +16,4 @@ add_executable(cdemo
         student/StudentManagerHelper.cpp
         student/StudentManagerHelper.h
         LinkTest.cpp
-        LinkTest.h thread_test/ThreadTest.cpp thread_test/ThreadTest.h pointer/PointerTest.cpp pointer/PointerTest.h)
+        LinkTest.h thread_test/ThreadTest.cpp thread_test/ThreadTest.h pointer/PointerTest.cpp pointer/PointerTest.h interface_test/Action.cpp interface_test/Action.h interface_test/Bird.cpp interface_test/Bird.h interface_test/Fish.cpp interface_test/Fish.h)

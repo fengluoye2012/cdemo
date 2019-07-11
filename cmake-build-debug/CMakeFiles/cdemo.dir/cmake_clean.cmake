@@ -7,6 +7,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/cdemo.dir/LinkTest.cpp.o"
   "CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.o"
   "CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o"
+  "CMakeFiles/cdemo.dir/interface_test/Action.cpp.o"
+  "CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o"
+  "CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o"
   "cdemo.pdb"
   "cdemo"
 )

@@ -161,6 +161,45 @@ CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/fengluoye/Desktop/c project/cdemo/pointer/PointerTest.cpp" -o CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.s
 
+CMakeFiles/cdemo.dir/interface_test/Action.cpp.o: CMakeFiles/cdemo.dir/flags.make
+CMakeFiles/cdemo.dir/interface_test/Action.cpp.o: ../interface_test/Action.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cdemo.dir/interface_test/Action.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cdemo.dir/interface_test/Action.cpp.o -c "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Action.cpp"
+
+CMakeFiles/cdemo.dir/interface_test/Action.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cdemo.dir/interface_test/Action.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Action.cpp" > CMakeFiles/cdemo.dir/interface_test/Action.cpp.i
+
+CMakeFiles/cdemo.dir/interface_test/Action.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cdemo.dir/interface_test/Action.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Action.cpp" -o CMakeFiles/cdemo.dir/interface_test/Action.cpp.s
+
+CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o: CMakeFiles/cdemo.dir/flags.make
+CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o: ../interface_test/Bird.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o -c "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Bird.cpp"
+
+CMakeFiles/cdemo.dir/interface_test/Bird.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cdemo.dir/interface_test/Bird.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Bird.cpp" > CMakeFiles/cdemo.dir/interface_test/Bird.cpp.i
+
+CMakeFiles/cdemo.dir/interface_test/Bird.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cdemo.dir/interface_test/Bird.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Bird.cpp" -o CMakeFiles/cdemo.dir/interface_test/Bird.cpp.s
+
+CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o: CMakeFiles/cdemo.dir/flags.make
+CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o: ../interface_test/Fish.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o -c "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Fish.cpp"
+
+CMakeFiles/cdemo.dir/interface_test/Fish.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cdemo.dir/interface_test/Fish.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Fish.cpp" > CMakeFiles/cdemo.dir/interface_test/Fish.cpp.i
+
+CMakeFiles/cdemo.dir/interface_test/Fish.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cdemo.dir/interface_test/Fish.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Fish.cpp" -o CMakeFiles/cdemo.dir/interface_test/Fish.cpp.s
+
 # Object files for target cdemo
 cdemo_OBJECTS = \
 "CMakeFiles/cdemo.dir/student/Freshman.cpp.o" \
@@ -170,7 +209,10 @@ cdemo_OBJECTS = \
 "CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o" \
 "CMakeFiles/cdemo.dir/LinkTest.cpp.o" \
 "CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.o" \
-"CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o"
+"CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o" \
+"CMakeFiles/cdemo.dir/interface_test/Action.cpp.o" \
+"CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o" \
+"CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o"
 
 # External object files for target cdemo
 cdemo_EXTERNAL_OBJECTS =
@@ -183,9 +225,12 @@ cdemo: CMakeFiles/cdemo.dir/student/StudentManagerHelper.cpp.o
 cdemo: CMakeFiles/cdemo.dir/LinkTest.cpp.o
 cdemo: CMakeFiles/cdemo.dir/thread_test/ThreadTest.cpp.o
 cdemo: CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o
+cdemo: CMakeFiles/cdemo.dir/interface_test/Action.cpp.o
+cdemo: CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o
+cdemo: CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o
 cdemo: CMakeFiles/cdemo.dir/build.make
 cdemo: CMakeFiles/cdemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable cdemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable cdemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cdemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

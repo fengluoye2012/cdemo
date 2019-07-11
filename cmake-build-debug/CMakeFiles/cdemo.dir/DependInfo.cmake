@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/fengluoye/Desktop/c project/cdemo/LinkTest.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/LinkTest.cpp.o"
+  "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Action.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/interface_test/Action.cpp.o"
+  "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Bird.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o"
+  "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Fish.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/main.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/main.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/pointer/PointerTest.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/student/Freshman.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/Freshman.cpp.o"

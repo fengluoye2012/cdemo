@@ -150,6 +150,87 @@ LinkTest.cpp.s:
 	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/LinkTest.cpp.s
 .PHONY : LinkTest.cpp.s
 
+interface_test/Action.o: interface_test/Action.cpp.o
+
+.PHONY : interface_test/Action.o
+
+# target to build an object file
+interface_test/Action.cpp.o:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/interface_test/Action.cpp.o
+.PHONY : interface_test/Action.cpp.o
+
+interface_test/Action.i: interface_test/Action.cpp.i
+
+.PHONY : interface_test/Action.i
+
+# target to preprocess a source file
+interface_test/Action.cpp.i:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/interface_test/Action.cpp.i
+.PHONY : interface_test/Action.cpp.i
+
+interface_test/Action.s: interface_test/Action.cpp.s
+
+.PHONY : interface_test/Action.s
+
+# target to generate assembly for a file
+interface_test/Action.cpp.s:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/interface_test/Action.cpp.s
+.PHONY : interface_test/Action.cpp.s
+
+interface_test/Bird.o: interface_test/Bird.cpp.o
+
+.PHONY : interface_test/Bird.o
+
+# target to build an object file
+interface_test/Bird.cpp.o:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o
+.PHONY : interface_test/Bird.cpp.o
+
+interface_test/Bird.i: interface_test/Bird.cpp.i
+
+.PHONY : interface_test/Bird.i
+
+# target to preprocess a source file
+interface_test/Bird.cpp.i:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/interface_test/Bird.cpp.i
+.PHONY : interface_test/Bird.cpp.i
+
+interface_test/Bird.s: interface_test/Bird.cpp.s
+
+.PHONY : interface_test/Bird.s
+
+# target to generate assembly for a file
+interface_test/Bird.cpp.s:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/interface_test/Bird.cpp.s
+.PHONY : interface_test/Bird.cpp.s
+
+interface_test/Fish.o: interface_test/Fish.cpp.o
+
+.PHONY : interface_test/Fish.o
+
+# target to build an object file
+interface_test/Fish.cpp.o:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o
+.PHONY : interface_test/Fish.cpp.o
+
+interface_test/Fish.i: interface_test/Fish.cpp.i
+
+.PHONY : interface_test/Fish.i
+
+# target to preprocess a source file
+interface_test/Fish.cpp.i:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/interface_test/Fish.cpp.i
+.PHONY : interface_test/Fish.cpp.i
+
+interface_test/Fish.s: interface_test/Fish.cpp.s
+
+.PHONY : interface_test/Fish.s
+
+# target to generate assembly for a file
+interface_test/Fish.cpp.s:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/interface_test/Fish.cpp.s
+.PHONY : interface_test/Fish.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -351,6 +432,15 @@ help:
 	@echo "... LinkTest.o"
 	@echo "... LinkTest.i"
 	@echo "... LinkTest.s"
+	@echo "... interface_test/Action.o"
+	@echo "... interface_test/Action.i"
+	@echo "... interface_test/Action.s"
+	@echo "... interface_test/Bird.o"
+	@echo "... interface_test/Bird.i"
+	@echo "... interface_test/Bird.s"
+	@echo "... interface_test/Fish.o"
+	@echo "... interface_test/Fish.i"
+	@echo "... interface_test/Fish.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
