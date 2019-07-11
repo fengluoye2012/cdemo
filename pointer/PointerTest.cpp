@@ -110,7 +110,7 @@ void PointerTest::pointerParam(int *a) {
 
 
     //同一个类中函数的调用；
-//    //声明函数指针；
+    //声明函数指针；
 //    typedef  void (*PF)(int,int);
 //    PF pf = swap;
 //    pointerMethodParam(pf);
@@ -120,12 +120,16 @@ void PointerTest::pointerParam(int *a) {
 
 /**
  * 函数指针作为参数
+ * 或者使用函数指针  别名作为参数
  * @param pf
  */
-void PointerTest::pointerMethodParam(void (*pf)(int,int)) {
-    pf(10,23);
+//void PointerTest::pointerMethodParam(void (*pf)(int,int)) {
+void PointerTest::pointerMethodParam(PointerTest::PF pf) {
+    pf(10, 23);
 }
 
-void PointerTest::swap_change(int a, int b) {
-    PointerTest::swap(a,b);
+//函数指针作为返回值
+PointerTest::PF PointerTest::swap_change(int a, int b) {
+    //PointerTest::swap(a,b);
+    return PointerTest::swap;
 }

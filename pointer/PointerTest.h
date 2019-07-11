@@ -50,14 +50,17 @@ public:
 
     static void swap(int a, int b);
 
-    void swap_change(int a,int b);
+    typedef void (*PF)(int, int);
+
+    PF swap_change(int a,int b);
 
     void method_pointer_test();
 
     void pointerParam(int *a);
 
+    //定义别名
 
-    void pointerMethodParam(void (*p)(int, int));
+    void pointerMethodParam(PF pf);
 
 
 };

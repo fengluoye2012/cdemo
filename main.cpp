@@ -87,9 +87,9 @@ int main() {
 
 //    threadTest();
 
-//    pointerTest();
+    pointerTest();
 
-    interfaceTest();
+//    interfaceTest();
 
     return 0;
 }
@@ -121,6 +121,10 @@ void pointerTest() {
     PF pf = PointerTest::swap;
     //函数指针作为参数
     pointerTest1.pointerMethodParam(pf);
+
+    //函数指针作为返回值
+    PF pf_01 = pointerTest1.swap_change(10,20);
+    pf_01(1,9);
 
 }
 
