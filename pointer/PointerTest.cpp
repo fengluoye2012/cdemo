@@ -133,3 +133,7 @@ PointerTest::PF PointerTest::swap_change(int a, int b) {
     //PointerTest::swap(a,b);
     return PointerTest::swap;
 }
+
+void PointerTest::swap_value(int a, int b) {
+    cout << "a::" << a << ",,b：：" << b << "\n";
+}

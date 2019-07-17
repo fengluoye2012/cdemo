@@ -50,17 +50,21 @@ public:
 
     static void swap(int a, int b);
 
+    void swap_value(int a,int b);
+
+    //定义函数指针的别名
     typedef void (*PF)(int, int);
 
-    PF swap_change(int a,int b);
+    //返回值为函数指针
+    PF swap_change(int a, int b);
 
     void method_pointer_test();
 
     void pointerParam(int *a);
 
-    //定义别名
-
+    //参数为函数指针
     void pointerMethodParam(PF pf);
+
 
 
 };

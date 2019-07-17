@@ -104,28 +104,56 @@ void interfaceTest() {
 }
 
 void pointerTest() {
-    PointerTest pointerTest1 = PointerTest();
+//    PointerTest pointerTest1 = PointerTest();
     //pointerTest1.pointer_test();
 //    pointerTest1.array_pointer_test();
 //    pointerTest1.pointer_arr_test();
 //    pointerTest1.method_pointer_test();
 
     //指针参数；
-    int a = 10;
-    pointerTest1.pointerParam(&a);
-    cout << "a的值：：" << a << "\n";
+//    int a = 10;
+//    pointerTest1.pointerParam(&a);
+//    cout << "a的值：：" << a << "\n";
 
-    //定义一个函数指针；
-    typedef void (*PF)(int, int);
-    //赋值；
-    PF pf = PointerTest::swap;
-    //函数指针作为参数
-    pointerTest1.pointerMethodParam(pf);
+    //定义一个函数指针(静态方法)；
+//    typedef void (*PF)(int, int);
+//    //赋值；
+//    PF pf = PointerTest::swap;
+//    //函数指针作为参数
+//    pointerTest1.pointerMethodParam(pf);
+//
+//    //函数指针作为返回值
+//    PF pf_01 = pointerTest1.swap_change(10,20);
+//    pf_01(1,9);
 
-    //函数指针作为返回值
-    PF pf_01 = pointerTest1.swap_change(10,20);
-    pf_01(1,9);
 
+    //定义一个成员函数指针
+    //方式一：
+//    void (PointerTest::*pf)(int, int);
+//    pf = &PointerTest::swap_value;  //必须加&；
+
+//    //方式二
+//    typedef void (PointerTest::*PF)(int, int);
+//    PF pf1 = &PointerTest::swap_value;
+//
+//    //new 创建一个指针对象
+//    PointerTest *pointerTest2 = new PointerTest;
+//    (pointerTest2->*pf1)(23, 43);
+//
+//    cout << "成员函数指针地址：：" << pf1 << "\n";
+
+    PointerTest *pf;
+    //pf = new PointerTest;
+    pf = NULL;
+    delete pf;
+    if (!pf) {
+        pf->pointer_test();
+    }
+
+    int *pf1 = NULL;
+    cout << "pf1::" << pf1 << "\n";
+
+    cout<<"NULL="<<NULL<<endl;
 }
 
 //开启子线程需要注意，参数为方法名；

@@ -12,6 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7163761d-89a4-49ba-859f-f44b4f8c4805" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pointer/PointerTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pointer/PointerTest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pointer/PointerTest.h" beforeDir="false" afterPath="$PROJECT_DIR$/pointer/PointerTest.h" afterDir="false" />
@@ -46,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+            <state relative-caret-position="99">
+              <caret line="152" column="20" lean-forward="true" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#65#93#0" expanded="true" />
@@ -57,22 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pointer/PointerTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="62" column="60" lean-forward="true" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
+            <state relative-caret-position="96">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -80,8 +70,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pointer/PointerTest.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+            <state relative-caret-position="236">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pointer/PointerTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,7 +125,6 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/thread_test/ThreadTest.h" />
         <option value="$PROJECT_DIR$/thread_test/ThreadTest.cpp" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/interface_test/BirdAction.cpp" />
         <option value="$PROJECT_DIR$/interface_test/BirdAction.h" />
         <option value="$PROJECT_DIR$/interface_test/Action.cpp" />
@@ -133,17 +134,18 @@
         <option value="$PROJECT_DIR$/interface_test/Bird.cpp" />
         <option value="$PROJECT_DIR$/interface_test/Fish.cpp" />
         <option value="$PROJECT_DIR$/pointer/PointerTest.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/pointer/PointerTest.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="242" />
-    <option name="y" value="25" />
-    <option name="width" value="1151" />
-    <option name="height" value="805" />
+    <option name="x" value="698" />
+    <option name="y" value="24" />
+    <option name="width" value="775" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -298,25 +300,25 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24364000" />
+    <option name="totallyTimeSpent" value="28267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="242" y="25" width="1151" height="805" extended-state="0" />
+    <frame x="698" y="24" width="775" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18304779" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11547002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28985506" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04341534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.5173913" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.04347826" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.5166426" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.059334297" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289855" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3289855" />
@@ -550,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/thread">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="358" column="18" selection-start-line="358" selection-start-column="15" selection-end-line="358" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thread_test/ThreadTest.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -639,24 +634,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/thread">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="62" column="60" lean-forward="true" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
+        <state relative-caret-position="178">
+          <caret line="357" column="10" lean-forward="true" selection-start-line="357" selection-start-column="10" selection-end-line="357" selection-end-column="10" />
+          <folding>
+            <element signature="e#9790#9844#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pointer/PointerTest.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="236">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointer/PointerTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+        <state relative-caret-position="99">
+          <caret line="152" column="20" lean-forward="true" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#65#93#0" expanded="true" />
@@ -664,13 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pointer/PointerTest.cpp">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
