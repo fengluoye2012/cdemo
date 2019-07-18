@@ -67,7 +67,8 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 2）二级指针：
 3）函数指针（重点）：https://www.cnblogs.com/lvchaoshun/p/7806248.html
 https://blog.csdn.net/qq_35618527/article/details/76796707
-3.1)如何获取非静态方法的地址；
+3.1)类成员函数指针；
+https://www.runoob.com/w3cnote/cpp-func-pointer.html
 
 3.2)使用函数指针的好处：真正的函数指针的使用可以将实现同一功能的很多个模块统一起来标识，
 这样一来更容易后期的维护，系统结构更加清晰。或者归纳为：便于分层设计、利于系统抽象、降低耦合度以及使接口与实现分开。
