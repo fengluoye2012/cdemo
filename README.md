@@ -55,6 +55,8 @@ https://www.cnblogs.com/seventhsaint/archive/2012/11/18/2805660.html
 2）二级指针：
 3）函数指针（重点）：https://www.cnblogs.com/lvchaoshun/p/7806248.html
 https://blog.csdn.net/qq_35618527/article/details/76796707
+3.1)类成员函数指针；
+https://www.runoob.com/w3cnote/cpp-func-pointer.html
 3.1)成员函数指针：https://blog.csdn.net/shaosunrise/article/details/83795230
 
 3.2)使用函数指针的好处：真正的函数指针的使用可以将实现同一功能的很多个模块统一起来标识，
