@@ -91,7 +91,8 @@ https://blog.csdn.net/xiongya8888/article/details/83998574
 https://blog.csdn.net/xuyuqingfeng953/article/details/51058236；
 1）左值引用：通过&获得左值引用，左值引用只能绑定左值。
 2) 右值引用：https://www.cnblogs.com/likaiming/p/9045642.html
-3) 移动语义move,右值引用折叠,右值引用类型推断；
+https://blog.csdn.net/china_jeffery/article/details/78520237
+3) 移动语义move,右值引用折叠,右值引用类型推断；、
 
 14、函数传参：https://blog.csdn.net/u012814856/article/details/83410552
 - 按值传参：函数接收到了传递过来的参数后，将其拷贝一份，其函数内部执行的代码操作的都是传递参数的拷贝；
@@ -100,6 +101,7 @@ https://blog.csdn.net/xuyuqingfeng953/article/details/51058236；
 - 按常量引用传参：既拥有引用的节省拷贝开支的优点，又拥有按值传参的不影响原值的优点；
 - 按右值引用传参：
 
+精确传递（右值引用的使用）：在参数传递过程中，所有这些属性和参数值都不能改变。
 
 尽管按值传参大部分情况下都能够使用，但是合适的情况下使用合适的传参方式体现了我们对于 C++ 的理解深度。
 
@@ -107,3 +109,4 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 1)一个方法不能修改基本数据类型的参数（int,boolean）;
 2)一个方法可以修改引用数据类型的参数（String，类，接口）；
 3）上述两种都进行值拷贝过程；
+
