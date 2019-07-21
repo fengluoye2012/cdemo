@@ -15,6 +15,7 @@
 #include "pointer/PointerTest.h"
 #include "interface_test/Bird.h"
 #include "interface_test/Fish.h"
+#include "reference_test/ReferenceTest.h"
 
 using std::string;
 using namespace std;
@@ -48,6 +49,8 @@ void threadTest();
 void pointerTest();
 
 void interfaceTest();
+
+void referenceTest();
 
 namespace fist_space {
     void func() {
@@ -87,13 +90,40 @@ int main() {
 
 //    threadTest();
 
-    pointerTest();
+//    pointerTest();
 
 //    interfaceTest();
+
+    referenceTest();
 
     return 0;
 }
 
+void referenceTest() {
+    ReferenceTest referenceTest = ReferenceTest();
+    //referenceTest.understandReference();
+//    int a = 20;
+//    int b = 30;
+//    referenceTest.swap(a, b);
+//    cout << "交换之后::a==" << a << ",,b==" << b << "\n";
+
+
+//    int aa = 10;
+//    referenceTest.change(aa);
+
+//    float aaa = 3.0F;
+//    float bbb = referenceTest.returnFunc(aaa);
+//    cout << "引用返回值：：" << bbb << "\n";
+
+//    referenceTest.rightReference();
+
+//    referenceTest.moveTest();
+
+    int a = 20;
+    //move()函数无论传入的参数是右值引用还是左值引用，返回值都是右值引用；
+    int &&cc = referenceTest.swap_change(20);
+    cout << "右值引用：：" + cc << "\n";
+}
 
 void interfaceTest() {
     Bird bird = Bird();
@@ -152,8 +182,7 @@ void pointerTest() {
 
     int *pf1 = NULL;
     cout << "pf1::" << pf1 << "\n";
-
-    cout<<"NULL="<<NULL<<endl;
+    cout << "NULL=" << NULL << endl;
 }
 
 //开启子线程需要注意，参数为方法名；

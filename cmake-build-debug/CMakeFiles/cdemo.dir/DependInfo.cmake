@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/fengluoye/Desktop/c project/cdemo/interface_test/Fish.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/main.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/main.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/pointer/PointerTest.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o"
+  "/Users/fengluoye/Desktop/c project/cdemo/reference_test/ReferenceTest.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/reference_test/ReferenceTest.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/student/Freshman.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/Freshman.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/student/HighStudent.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/HighStudent.cpp.o"
   "/Users/fengluoye/Desktop/c project/cdemo/student/Student.cpp" "/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/student/Student.cpp.o"

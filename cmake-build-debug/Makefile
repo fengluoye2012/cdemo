@@ -285,6 +285,33 @@ pointer/PointerTest.cpp.s:
 	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.s
 .PHONY : pointer/PointerTest.cpp.s
 
+reference_test/ReferenceTest.o: reference_test/ReferenceTest.cpp.o
+
+.PHONY : reference_test/ReferenceTest.o
+
+# target to build an object file
+reference_test/ReferenceTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/reference_test/ReferenceTest.cpp.o
+.PHONY : reference_test/ReferenceTest.cpp.o
+
+reference_test/ReferenceTest.i: reference_test/ReferenceTest.cpp.i
+
+.PHONY : reference_test/ReferenceTest.i
+
+# target to preprocess a source file
+reference_test/ReferenceTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/reference_test/ReferenceTest.cpp.i
+.PHONY : reference_test/ReferenceTest.cpp.i
+
+reference_test/ReferenceTest.s: reference_test/ReferenceTest.cpp.s
+
+.PHONY : reference_test/ReferenceTest.s
+
+# target to generate assembly for a file
+reference_test/ReferenceTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/reference_test/ReferenceTest.cpp.s
+.PHONY : reference_test/ReferenceTest.cpp.s
+
 student/Freshman.o: student/Freshman.cpp.o
 
 .PHONY : student/Freshman.o
@@ -447,6 +474,9 @@ help:
 	@echo "... pointer/PointerTest.o"
 	@echo "... pointer/PointerTest.i"
 	@echo "... pointer/PointerTest.s"
+	@echo "... reference_test/ReferenceTest.o"
+	@echo "... reference_test/ReferenceTest.i"
+	@echo "... reference_test/ReferenceTest.s"
 	@echo "... student/Freshman.o"
 	@echo "... student/Freshman.i"
 	@echo "... student/Freshman.s"

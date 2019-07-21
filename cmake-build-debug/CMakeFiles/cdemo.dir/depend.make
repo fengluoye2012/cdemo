@@ -23,6 +23,7 @@ CMakeFiles/cdemo.dir/main.cpp.o: ../interface_test/Bird.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../interface_test/Fish.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../main.cpp
 CMakeFiles/cdemo.dir/main.cpp.o: ../pointer/PointerTest.h
+CMakeFiles/cdemo.dir/main.cpp.o: ../reference_test/ReferenceTest.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../student/Freshman.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../student/HighStudent.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../student/Student.h
@@ -32,6 +33,9 @@ CMakeFiles/cdemo.dir/main.cpp.o: ../thread_test/ThreadTest.h
 
 CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o: ../pointer/PointerTest.cpp
 CMakeFiles/cdemo.dir/pointer/PointerTest.cpp.o: ../pointer/PointerTest.h
+
+CMakeFiles/cdemo.dir/reference_test/ReferenceTest.cpp.o: ../reference_test/ReferenceTest.cpp
+CMakeFiles/cdemo.dir/reference_test/ReferenceTest.cpp.o: ../reference_test/ReferenceTest.h
 
 CMakeFiles/cdemo.dir/student/Freshman.cpp.o: ../student/Freshman.cpp
 CMakeFiles/cdemo.dir/student/Freshman.cpp.o: ../student/Freshman.h

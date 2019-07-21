@@ -115,6 +115,12 @@
 		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/pointer/PointerTest.h">
 			<Option target="cdemo"/>
 		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/reference_test/ReferenceTest.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/reference_test/ReferenceTest.h">
+			<Option target="cdemo"/>
+		</Unit>
 		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/student/Freshman.cpp">
 			<Option target="cdemo"/>
 		</Unit>
