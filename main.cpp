@@ -16,6 +16,7 @@
 #include "interface_test/Bird.h"
 #include "interface_test/Fish.h"
 #include "reference_test/ReferenceTest.h"
+#include "func_param_test/FuncParamTest.h"
 
 using std::string;
 using namespace std;
@@ -51,6 +52,8 @@ void pointerTest();
 void interfaceTest();
 
 void referenceTest();
+
+void funcParamTest();
 
 namespace fist_space {
     void func() {
@@ -94,9 +97,21 @@ int main() {
 
 //    interfaceTest();
 
-    referenceTest();
+//    referenceTest();
+
+    funcParamTest();
 
     return 0;
+}
+
+
+void funcParamTest() {
+    //右值引用
+    FuncParamTest funcParamTest = FuncParamTest();
+    funcParamTest.swap(10, 20);
+
+    int b = funcParamTest.change(20);
+    cout << "b::" << b << "\n";
 }
 
 void referenceTest() {
@@ -122,7 +137,7 @@ void referenceTest() {
     int a = 20;
     //move()函数无论传入的参数是右值引用还是左值引用，返回值都是右值引用；
     int &&cc = referenceTest.swap_change(20);
-    cout << "右值引用：：" + cc << "\n";
+    //cout << "右值引用：：" + cc << "\n";
 }
 
 void interfaceTest() {

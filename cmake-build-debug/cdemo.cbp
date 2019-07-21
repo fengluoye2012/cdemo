@@ -88,6 +88,12 @@
 		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/LinkTest.h">
 			<Option target="cdemo"/>
 		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/func_param_test/FuncParamTest.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/func_param_test/FuncParamTest.h">
+			<Option target="cdemo"/>
+		</Unit>
 		<Unit filename="/Users/fengluoye/Desktop/c project/cdemo/interface_test/Action.cpp">
 			<Option target="cdemo"/>
 		</Unit>
