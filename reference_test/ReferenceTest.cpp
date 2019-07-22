@@ -32,8 +32,9 @@ void ReferenceTest::understandReference() {
     //10 是右值，可以在内存中，也可以在寄存器中；
     //一个对象备用作右值时，使用的是它的内容（值），被当作左值时，使用的是它的内存地址；
     int a = 10;
-    //定义引用b，他是变量a的引用，即别名；
+    //定义引用b，他是变量a的引用，即别名；&可以放在类型后，也可以放在变量前；
     int &b = a;
+    int& b1 = a;
 
     cout << "b::" << b << "\n";
     cout << "a的内存地址：：" << &a << ",,b的内存地址：：" << &b << "\n";
@@ -102,8 +103,8 @@ void ReferenceTest::change(const int &a) {
  * @return
  */
 float &ReferenceTest::returnFunc(float r) {
-    float f = r * r * 3.14F;
-    return f;
+    float area = r * r * 3.14F;
+    return area;
 }
 
 /**

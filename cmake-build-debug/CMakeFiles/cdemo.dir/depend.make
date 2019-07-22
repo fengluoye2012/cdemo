@@ -6,6 +6,9 @@ CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../LinkTest.h
 CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../student/Freshman.h
 CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../student/Student.h
 
+CMakeFiles/cdemo.dir/func_param_test/FuncParamTest.cpp.o: ../func_param_test/FuncParamTest.cpp
+CMakeFiles/cdemo.dir/func_param_test/FuncParamTest.cpp.o: ../func_param_test/FuncParamTest.h
+
 CMakeFiles/cdemo.dir/interface_test/Action.cpp.o: ../interface_test/Action.cpp
 CMakeFiles/cdemo.dir/interface_test/Action.cpp.o: ../interface_test/Action.h
 
@@ -18,6 +21,7 @@ CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o: ../interface_test/Fish.cpp
 CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o: ../interface_test/Fish.h
 
 CMakeFiles/cdemo.dir/main.cpp.o: ../LinkTest.h
+CMakeFiles/cdemo.dir/main.cpp.o: ../func_param_test/FuncParamTest.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../interface_test/Action.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../interface_test/Bird.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../interface_test/Fish.h

@@ -112,6 +112,10 @@ void funcParamTest() {
 
     int b = funcParamTest.change(20);
     cout << "b::" << b << "\n";
+
+    FuncParamTest& funcP = funcParamTest;
+    string str = "fengluoye";
+    funcP.funcDefaultValue(str,10);
 }
 
 void referenceTest() {

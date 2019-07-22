@@ -6,8 +6,10 @@
 #define CDEMO_FUNCPARAMTEST_H
 
 #include "iostream"
+#include "string.h"
 
 using namespace std;
+using std::string;
 
 class FuncParamTest {
 
@@ -17,6 +19,9 @@ public:
 
     template<typename T>
     T change(const T &&val);
+
+
+    void funcDefaultValue(string &str,int a = 10);
 
 };
 
@@ -49,5 +54,9 @@ template<typename FENG>
 FENG FuncParamTest::change(const FENG &&val) {
     return val + 10;
 }
+
+//void FuncParamTest::funcDefaultValue(string &str, int a) {
+//    //cout << "a==" << a << ",,str==" + str << "\n";
+//}
 
 #endif //CDEMO_FUNCPARAMTEST_H
