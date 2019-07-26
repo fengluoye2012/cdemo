@@ -21,7 +21,7 @@ public:
     T change(const T &&val);
 
 
-    void funcDefaultValue(string &str,int a = 10);
+//    void funcDefaultValue(string &str,int a = 10);
 
 };
 

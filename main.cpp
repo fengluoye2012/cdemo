@@ -17,6 +17,7 @@
 #include "interface_test/Fish.h"
 #include "reference_test/ReferenceTest.h"
 #include "func_param_test/FuncParamTest.h"
+#include "string_test/StringTest.h"
 
 using std::string;
 using namespace std;
@@ -54,6 +55,8 @@ void interfaceTest();
 void referenceTest();
 
 void funcParamTest();
+
+void stringTest();
 
 namespace fist_space {
     void func() {
@@ -99,11 +102,30 @@ int main() {
 
 //    referenceTest();
 
-    funcParamTest();
+//    funcParamTest();
 
+    stringTest();
     return 0;
 }
 
+void stringTest() {
+    StringTest stringTest = StringTest();
+
+    //auto 自动确定类型
+    auto *stringTest1 = new StringTest();
+
+    //左值引用
+    StringTest &stringTest2 = stringTest;
+
+    //右值引用
+    StringTest &&stringTest3 = StringTest();
+
+    stringTest.initStr();
+    stringTest1->initStr();
+    stringTest2.initStr();
+    stringTest3.initStr();
+
+}
 
 void funcParamTest() {
     //右值引用
@@ -113,9 +135,9 @@ void funcParamTest() {
     int b = funcParamTest.change(20);
     cout << "b::" << b << "\n";
 
-    FuncParamTest& funcP = funcParamTest;
+    FuncParamTest &funcP = funcParamTest;
     string str = "fengluoye";
-    funcP.funcDefaultValue(str,10);
+    //funcP.funcDefaultValue(str, 10);
 }
 
 void referenceTest() {

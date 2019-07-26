@@ -98,7 +98,10 @@ https://blog.csdn.net/xuyuqingfeng953/article/details/51058236；
 1）左值引用：通过&获得左值引用，左值引用只能绑定左值。
 2) 右值引用：https://www.cnblogs.com/likaiming/p/9045642.html
 https://blog.csdn.net/china_jeffery/article/details/78520237
-3) 移动语义move,右值引用折叠,右值引用类型推断；、
+3) 移动语义move,右值引用折叠,右值引用类型推断；
+为什么会引入右值引用？
+在旧的C++中，出现了很多不必要的拷贝，因此在某些情况下，对象拷贝完之后，就下来销毁了。
+新标准引入了移动操作，减少了很多的复制操作，右值引用正是为了支持移动操作，而引入的新的引用类型；
 
 14、函数传参：https://blog.csdn.net/u012814856/article/details/83410552
 - 按值传参：函数接收到了传递过来的参数后，将其拷贝一份，其函数内部执行的代码操作的都是传递参数的拷贝；
@@ -110,6 +113,9 @@ https://blog.csdn.net/china_jeffery/article/details/78520237
 精确传递（右值引用的使用）：在参数传递过程中，所有这些属性和参数值都不能改变。
 
 尽管按值传参大部分情况下都能够使用，但是合适的情况下使用合适的传参方式体现了我们对于 C++ 的理解深度。
+
+而就引用传递和指针传递的效率上比，引用传递的效率始终不低于指针传递，所以从这种意义上讲，
+在c＋＋中进行参数传递时优先使用引用传递而不是指针。
 
 Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/51192130
 1)一个方法不能修改基本数据类型的参数（int,boolean）;
