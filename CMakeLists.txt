@@ -36,7 +36,7 @@ add_executable(cdemo
         interface_test/Fish.cpp interface_test/Fish.h reference_test/ReferenceTest.cpp
         reference_test/ReferenceTest.h func_param_test/FuncParamTest.cpp
         func_param_test/FuncParamTest.h string_test/StringTest.cpp
-        string_test/StringTest.h)
+        string_test/StringTest.h ffmpeg_test/FFmpegTest.cpp ffmpeg_test/FFmpegTest.h)
 
 # 添加链接库
 target_link_libraries(
