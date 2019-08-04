@@ -18,7 +18,9 @@
 #include "reference_test/ReferenceTest.h"
 #include "func_param_test/FuncParamTest.h"
 #include "string_test/StringTest.h"
-#include "spdlog/spdlog.h"
+
+
+
 
 using std::string;
 using namespace std;
@@ -107,7 +109,7 @@ int main() {
 
    // stringTest();
 
-    spdlog::info("huhuhuhuhu");
+//    spdlog::info("huhuhuhuhu");
 
     return 0;
 }
