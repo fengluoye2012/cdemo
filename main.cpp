@@ -19,7 +19,11 @@
 #include "func_param_test/FuncParamTest.h"
 #include "string_test/StringTest.h"
 
+#include "spdlog/spdlog.h"
 
+extern "C" {
+#include "libavformat/avformat.h"
+}
 
 
 using std::string;
@@ -60,6 +64,10 @@ void referenceTest();
 void funcParamTest();
 
 void stringTest();
+
+void spdlogTest();
+
+void ffmpegTest();
 
 namespace fist_space {
     void func() {
@@ -107,11 +115,24 @@ int main() {
 
 //    funcParamTest();
 
-   // stringTest();
+    // stringTest();
 
-//    spdlog::info("huhuhuhuhu");
+    spdlogTest();
+
+    ffmpegTest();
 
     return 0;
+}
+
+void ffmpegTest(){
+    spdlog::info("Hello FFmpeg");
+    //打印libavformat构建时配置信息。
+    spdlog::info(avformat_configuration());
+}
+
+void spdlogTest() {
+    spdlog::error("error:: huhuhuhu");
+    spdlog::warn("warn ::hhhhh");
 }
 
 void stringTest() {

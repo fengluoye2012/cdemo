@@ -127,3 +127,12 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 16、C++ 关键字：
 1）extern：允许引用在另一个文件中定义的全局变量；
 2）静态变量没有显示初始化，默认初始值为0；
+
+17：引入第三方库   参考引入FFmpeg https://blog.csdn.net/qq_25333681/article/details/89762284;
+1）Homebrew: brew install spdlog；
+2)brew info ffmpeg   安装完之后查看目录
+3）在CmakeLists.txt文件中引入
+
+18：引入FFmpeg：结合以下两个链接的内容
+https://blog.csdn.net/qq_25333681/article/details/89762284
+https://blog.csdn.net/mengzhengjie/article/details/80134727
