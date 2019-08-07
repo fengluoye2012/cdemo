@@ -9,9 +9,14 @@
 class FFmpegTest {
 
 public:
+
     void ffmpeg_log();
 
     void deleteOrRenameFile();
+
+    void dirTest();
+
+    void printInfo();
 
 
 };

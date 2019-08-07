@@ -119,7 +119,7 @@ int main() {
 
     // stringTest();
 
-    spdlogTest();
+//    spdlogTest();
 
     ffmpegTest();
 
@@ -135,7 +135,9 @@ void ffmpegTest() {
 
     FFmpegTest fFmpegTest = FFmpegTest();
     //fFmpegTest.ffmpeg_log();
-    fFmpegTest.deleteOrRenameFile();
+    //fFmpegTest.deleteOrRenameFile();
+//    fFmpegTest.dirTest();
+    fFmpegTest.printInfo();
 }
 
 void spdlogTest() {
