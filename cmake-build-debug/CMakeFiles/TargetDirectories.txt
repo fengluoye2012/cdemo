@@ -1,3 +1,4 @@
-/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/fengluoye/Desktop/c project/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir
+/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemolib.dir
+/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir

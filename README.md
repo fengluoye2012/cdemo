@@ -136,3 +136,5 @@ Java中的传递方式？？https://blog.csdn.net/javazejian/article/details/511
 18：引入FFmpeg：结合以下两个链接的内容
 https://blog.csdn.net/qq_25333681/article/details/89762284
 https://blog.csdn.net/mengzhengjie/article/details/80134727
+
+19：CMakeLists.txt语法：https://blog.csdn.net/afei__/article/details/81201039

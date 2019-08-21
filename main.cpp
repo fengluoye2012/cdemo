@@ -20,12 +20,12 @@
 #include "string_test/StringTest.h"
 
 #include "spdlog/spdlog.h"
-#include "ffmpeg_test/FFmpegTest.h"
-
-extern "C" {
-#include "libavformat/avformat.h"
-#include "libavutil/log.h"
-}
+//#include "ffmpeg_test/FFmpegTest.h"
+//
+//extern "C" {
+//#include "libavformat/avformat.h"
+//#include "libavutil/log.h"
+//}
 
 
 using std::string;
@@ -133,9 +133,9 @@ void ffmpegTest() {
 //    //打印libavformat构建时配置信息。
 //    spdlog::info(avformat_configuration());
 
-    FFmpegTest fFmpegTest = FFmpegTest();
-    //fFmpegTest.ffmpeg_log();
-    fFmpegTest.deleteOrRenameFile();
+//    FFmpegTest fFmpegTest = FFmpegTest();
+//    //fFmpegTest.ffmpeg_log();
+//    fFmpegTest.deleteOrRenameFile();
 }
 
 void spdlogTest() {
