@@ -166,6 +166,33 @@ LinkTest.cpp.s:
 	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/LinkTest.cpp.s
 .PHONY : LinkTest.cpp.s
 
+ffmpeg_test/FFmpegTest.o: ffmpeg_test/FFmpegTest.cpp.o
+
+.PHONY : ffmpeg_test/FFmpegTest.o
+
+# target to build an object file
+ffmpeg_test/FFmpegTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o
+.PHONY : ffmpeg_test/FFmpegTest.cpp.o
+
+ffmpeg_test/FFmpegTest.i: ffmpeg_test/FFmpegTest.cpp.i
+
+.PHONY : ffmpeg_test/FFmpegTest.i
+
+# target to preprocess a source file
+ffmpeg_test/FFmpegTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.i
+.PHONY : ffmpeg_test/FFmpegTest.cpp.i
+
+ffmpeg_test/FFmpegTest.s: ffmpeg_test/FFmpegTest.cpp.s
+
+.PHONY : ffmpeg_test/FFmpegTest.s
+
+# target to generate assembly for a file
+ffmpeg_test/FFmpegTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.s
+.PHONY : ffmpeg_test/FFmpegTest.cpp.s
+
 func_param_test/FuncParamTest.o: func_param_test/FuncParamTest.cpp.o
 
 .PHONY : func_param_test/FuncParamTest.o
@@ -533,6 +560,9 @@ help:
 	@echo "... LinkTest.o"
 	@echo "... LinkTest.i"
 	@echo "... LinkTest.s"
+	@echo "... ffmpeg_test/FFmpegTest.o"
+	@echo "... ffmpeg_test/FFmpegTest.i"
+	@echo "... ffmpeg_test/FFmpegTest.s"
 	@echo "... func_param_test/FuncParamTest.o"
 	@echo "... func_param_test/FuncParamTest.i"
 	@echo "... func_param_test/FuncParamTest.s"

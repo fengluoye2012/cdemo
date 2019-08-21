@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/Cellar/spdlog/1.3.1/include -I/Users/mac/Desktop/C:C++/cdemo/. 
+CXX_INCLUDES = -I/usr/local/Cellar/spdlog/1.3.1/include -I/usr/local/Cellar/ffmpeg/4.1.4_1/include -I/Users/mac/Desktop/C:C++/cdemo/. 
 

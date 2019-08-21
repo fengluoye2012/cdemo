@@ -11,10 +11,10 @@ include_directories(${APDLOG_DIR}/include/)
 # 动态链接库或静态链接库的搜索路径
 link_directories(${APDLOG_DIR}/lib/)
 
-#FFmpeg
-#set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.1.1) # FFmpeg的安装目录，可以通过命令"brew info ffmpeg"获取
-#include_directories(${FFMPEG_DIR}/include/) # 头文件搜索路径
-#link_directories(${FFMPEG_DIR}/lib/) # 动态链接库或静态链接库的搜索路径
+#FFmpeg /usr/local/Cellar/ffmpeg/4.1.4_1
+set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.1.4_1) # FFmpeg的安装目录，可以通过命令"brew info ffmpeg"获取
+include_directories(${FFMPEG_DIR}/include/) # 头文件搜索路径
+link_directories(${FFMPEG_DIR}/lib/) # 动态链接库或静态链接库的搜索路径
 
 
 set(CMAKE_CXX_STANDARD 14)
@@ -39,8 +39,8 @@ add_executable(cdemo
         interface_test/Fish.cpp interface_test/Fish.h reference_test/ReferenceTest.cpp
         reference_test/ReferenceTest.h func_param_test/FuncParamTest.cpp
         func_param_test/FuncParamTest.h string_test/StringTest.cpp
-        string_test/StringTest.h)
-#ffmpeg_test/FFmpegTest.cpp ffmpeg_test/FFmpegTest.h
+        string_test/StringTest.h ffmpeg_test/FFmpegTest.cpp ffmpeg_test/FFmpegTest.h)
+#
 
 #指定源文件 1）明确指定那些源文件；2）搜索所有的 cpp 文件；3）自定义搜索规则
 aux_source_directory(. SRC_LIST) # 搜索当前目录下的所有.cpp文件
@@ -51,14 +51,13 @@ add_library(cdemolib SHARED ${SRC_LIST})
 # 添加链接库
 target_link_libraries(
         cdemo
+        avcodec
+        avdevice
+        avfilter
+        avformat
+        avresample
+        avutil
+        postproc
+        swresample
+        swscale
 )
-
-#avcodec
-#        avdevice
-#        avfilter
-#        avformat
-#        avresample
-#        avutil
-#        postproc
-#        swresample
-#        swscale

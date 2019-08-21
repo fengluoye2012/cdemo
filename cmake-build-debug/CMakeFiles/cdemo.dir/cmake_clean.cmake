@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cdemo.dir/reference_test/ReferenceTest.cpp.o"
   "CMakeFiles/cdemo.dir/func_param_test/FuncParamTest.cpp.o"
   "CMakeFiles/cdemo.dir/string_test/StringTest.cpp.o"
+  "CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o"
   "cdemo.pdb"
   "cdemo"
 )

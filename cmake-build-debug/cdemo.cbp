@@ -45,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/Cellar/spdlog/1.3.1/include"/>
+					<Add directory="/usr/local/Cellar/ffmpeg/4.1.4_1/include"/>
 					<Add directory="/Users/mac/Desktop/C:C++/cdemo/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -68,6 +69,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/Cellar/spdlog/1.3.1/include"/>
+					<Add directory="/usr/local/Cellar/ffmpeg/4.1.4_1/include"/>
 					<Add directory="/Users/mac/Desktop/C:C++/cdemo/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -91,6 +93,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/Cellar/spdlog/1.3.1/include"/>
+					<Add directory="/usr/local/Cellar/ffmpeg/4.1.4_1/include"/>
 					<Add directory="/Users/mac/Desktop/C:C++/cdemo/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -114,6 +117,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/Cellar/spdlog/1.3.1/include"/>
+					<Add directory="/usr/local/Cellar/ffmpeg/4.1.4_1/include"/>
 					<Add directory="/Users/mac/Desktop/C:C++/cdemo/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -135,6 +139,12 @@
 			<Option target="cdemo"/>
 		</Unit>
 		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/LinkTest.h">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/ffmpeg_test/FFmpegTest.cpp">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/ffmpeg_test/FFmpegTest.h">
 			<Option target="cdemo"/>
 		</Unit>
 		<Unit filename="/Users/mac/Desktop/C:C++/cdemo/func_param_test/FuncParamTest.cpp">

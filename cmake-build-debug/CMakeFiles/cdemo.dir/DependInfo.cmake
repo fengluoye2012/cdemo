@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mac/Desktop/C:C++/cdemo/LinkTest.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/LinkTest.cpp.o"
+  "/Users/mac/Desktop/C:C++/cdemo/ffmpeg_test/FFmpegTest.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o"
   "/Users/mac/Desktop/C:C++/cdemo/func_param_test/FuncParamTest.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/func_param_test/FuncParamTest.cpp.o"
   "/Users/mac/Desktop/C:C++/cdemo/interface_test/Action.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/interface_test/Action.cpp.o"
   "/Users/mac/Desktop/C:C++/cdemo/interface_test/Bird.cpp" "/Users/mac/Desktop/C:C++/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/interface_test/Bird.cpp.o"
@@ -24,6 +25,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/spdlog/1.3.1/include"
+  "/usr/local/Cellar/ffmpeg/4.1.4_1/include"
   "../."
   )
 

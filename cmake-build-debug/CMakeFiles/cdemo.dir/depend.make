@@ -6,6 +6,33 @@ CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../LinkTest.h
 CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../student/Freshman.h
 CMakeFiles/cdemo.dir/LinkTest.cpp.o: ../student/Student.h
 
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: ../ffmpeg_test/FFmpegTest.cpp
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: ../ffmpeg_test/FFmpegTest.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavcodec/avcodec.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavformat/avformat.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavformat/avio.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavformat/version.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/attributes.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/avconfig.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/avutil.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/buffer.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/channel_layout.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/common.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/cpu.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/dict.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/error.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/frame.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/hwcontext.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/intfloat.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/log.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/macros.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/mathematics.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/mem.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/pixfmt.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/rational.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/samplefmt.h
+CMakeFiles/cdemo.dir/ffmpeg_test/FFmpegTest.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/version.h
+
 CMakeFiles/cdemo.dir/func_param_test/FuncParamTest.cpp.o: ../func_param_test/FuncParamTest.cpp
 CMakeFiles/cdemo.dir/func_param_test/FuncParamTest.cpp.o: ../func_param_test/FuncParamTest.h
 
@@ -21,6 +48,7 @@ CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o: ../interface_test/Fish.cpp
 CMakeFiles/cdemo.dir/interface_test/Fish.cpp.o: ../interface_test/Fish.h
 
 CMakeFiles/cdemo.dir/main.cpp.o: ../LinkTest.h
+CMakeFiles/cdemo.dir/main.cpp.o: ../ffmpeg_test/FFmpegTest.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../func_param_test/FuncParamTest.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../interface_test/Action.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../interface_test/Bird.h
@@ -35,6 +63,30 @@ CMakeFiles/cdemo.dir/main.cpp.o: ../student/Student.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../student/StudentManagerHelper.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../template/TemplateTest.h
 CMakeFiles/cdemo.dir/main.cpp.o: ../thread_test/ThreadTest.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavcodec/avcodec.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavformat/avformat.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavformat/avio.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavformat/version.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/attributes.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/avconfig.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/avutil.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/buffer.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/channel_layout.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/common.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/cpu.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/dict.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/error.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/frame.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/hwcontext.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/intfloat.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/log.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/macros.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/mathematics.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/mem.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/pixfmt.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/rational.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/samplefmt.h
+CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/ffmpeg/4.1.4_1/include/libavutil/version.h
 CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/spdlog/1.3.1/include/spdlog/common.h
 CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/spdlog/1.3.1/include/spdlog/details/console_globals.h
 CMakeFiles/cdemo.dir/main.cpp.o: /usr/local/Cellar/spdlog/1.3.1/include/spdlog/details/fmt_helper.h
