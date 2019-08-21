@@ -119,7 +119,7 @@ int main() {
 
     // stringTest();
 
-    spdlogTest();
+//    spdlogTest();
 
     ffmpegTest();
 
