@@ -11,7 +11,7 @@ include_directories(${APDLOG_DIR}/include/)
 # 动态链接库或静态链接库的搜索路径
 link_directories(${APDLOG_DIR}/lib/)
 
-#FFmpeg /usr/local/Cellar/ffmpeg/4.1.4_1
+#FFmpeg /usr/local/Cellar/ffmpeg/4.1.4_1  /usr/local/Cellar/ffmpeg/4.1.4_1
 set(FFMPEG_DIR /usr/local/Cellar/ffmpeg/4.1.4_1) # FFmpeg的安装目录，可以通过命令"brew info ffmpeg"获取
 include_directories(${FFMPEG_DIR}/include/) # 头文件搜索路径
 link_directories(${FFMPEG_DIR}/lib/) # 动态链接库或静态链接库的搜索路径
@@ -39,7 +39,7 @@ add_executable(cdemo
         interface_test/Fish.cpp interface_test/Fish.h reference_test/ReferenceTest.cpp
         reference_test/ReferenceTest.h func_param_test/FuncParamTest.cpp
         func_param_test/FuncParamTest.h string_test/StringTest.cpp
-        string_test/StringTest.h ffmpeg_test/FFmpegTest.cpp ffmpeg_test/FFmpegTest.h)
+        string_test/StringTest.h ffmpeg_test/FFmpegTest.cpp ffmpeg_test/FFmpegTest.h define_test/DefineTest.cpp define_test/DefineTest.h)
 #
 
 #指定源文件 1）明确指定那些源文件；2）搜索所有的 cpp 文件；3）自定义搜索规则

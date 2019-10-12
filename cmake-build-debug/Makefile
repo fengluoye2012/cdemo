@@ -166,6 +166,33 @@ LinkTest.cpp.s:
 	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/LinkTest.cpp.s
 .PHONY : LinkTest.cpp.s
 
+define_test/DefineTest.o: define_test/DefineTest.cpp.o
+
+.PHONY : define_test/DefineTest.o
+
+# target to build an object file
+define_test/DefineTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/define_test/DefineTest.cpp.o
+.PHONY : define_test/DefineTest.cpp.o
+
+define_test/DefineTest.i: define_test/DefineTest.cpp.i
+
+.PHONY : define_test/DefineTest.i
+
+# target to preprocess a source file
+define_test/DefineTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/define_test/DefineTest.cpp.i
+.PHONY : define_test/DefineTest.cpp.i
+
+define_test/DefineTest.s: define_test/DefineTest.cpp.s
+
+.PHONY : define_test/DefineTest.s
+
+# target to generate assembly for a file
+define_test/DefineTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cdemo.dir/build.make CMakeFiles/cdemo.dir/define_test/DefineTest.cpp.s
+.PHONY : define_test/DefineTest.cpp.s
+
 ffmpeg_test/FFmpegTest.o: ffmpeg_test/FFmpegTest.cpp.o
 
 .PHONY : ffmpeg_test/FFmpegTest.o
@@ -560,6 +587,9 @@ help:
 	@echo "... LinkTest.o"
 	@echo "... LinkTest.i"
 	@echo "... LinkTest.s"
+	@echo "... define_test/DefineTest.o"
+	@echo "... define_test/DefineTest.i"
+	@echo "... define_test/DefineTest.s"
 	@echo "... ffmpeg_test/FFmpegTest.o"
 	@echo "... ffmpeg_test/FFmpegTest.i"
 	@echo "... ffmpeg_test/FFmpegTest.s"

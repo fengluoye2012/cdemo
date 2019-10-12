@@ -1,6 +1,7 @@
 #include <iostream>
 #include <thread>
 #include <string>
+#include <define_test/DefineTest.h>
 //引入头文件；
 #include "student/Student.h"
 #include "array"
@@ -26,7 +27,6 @@ extern "C" {
 #include "libavformat/avformat.h"
 #include "libavutil/log.h"
 }
-
 
 using std::string;
 using namespace std;
@@ -70,6 +70,8 @@ void stringTest();
 void spdlogTest();
 
 void ffmpegTest();
+
+void defineTest();
 
 namespace fist_space {
     void func() {
@@ -121,9 +123,18 @@ int main() {
 
 //    spdlogTest();
 
-    ffmpegTest();
+//    ffmpegTest();
+
+    defineTest();
 
     return 0;
+}
+
+void defineTest(){
+    //auto 自动推断变量类型
+    auto *defineTest1 = new DefineTest();
+    defineTest1->circleArea(4);
+    defineTest1->defineFunc(10,6);
 }
 
 void ffmpegTest() {

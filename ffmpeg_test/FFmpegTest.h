@@ -5,6 +5,7 @@
 #ifndef CDEMO_FFMPEGTEST_H
 #define CDEMO_FFMPEGTEST_H
 
+#define PI 4
 
 class FFmpegTest {
 

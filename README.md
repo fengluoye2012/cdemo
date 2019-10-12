@@ -140,3 +140,7 @@ https://blog.csdn.net/qq_25333681/article/details/89762284
 https://blog.csdn.net/mengzhengjie/article/details/80134727
 
 19：CMakeLists.txt语法：https://blog.csdn.net/afei__/article/details/81201039
+
+20:define的使用 https://www.cnblogs.com/a1982467767/p/8889306.html
+1）定义常量 类似const #define的定义其实就是简单的文本的替换，并不是作为一个量来使用
+   和全局变量有区别，全局变量同一个变量名 只能存在一个；
